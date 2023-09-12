@@ -1,0 +1,1892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogStock</class>
+ <widget class="QDialog" name="DialogStock">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>402</width>
+    <height>931</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="GB_STOCK">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>401</width>
+     <height>971</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>함초롬돋움</family>
+     <pointsize>20</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox  {
+    margin-top: 10px;
+	font: 20pt &quot;함초롬돋움&quot;;
+}
+
+QGroupBox::title  {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 10px 8000px 10px 8000px;
+    background-color: #595959;
+    color: rgb(255, 255, 255);
+}
+QLabel {
+	font: 10pt &quot;함초롬돋움&quot;;
+}
+QComboBox{
+	font: 10pt &quot;함초롬돋움&quot;;
+	background-color: #ffffff
+}
+QPushButton{
+	font: 10pt &quot;함초롬돋움&quot;;
+	background-color: #ffffff
+}
+QLineEdit{
+	font: 10pt &quot;함초롬돋움&quot;;
+	background-color: #ffffff
+}
+
+
+
+</string>
+   </property>
+   <property name="title">
+    <string>재고</string>
+   </property>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>361</width>
+      <height>851</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTabBar::tab{
+height: 40px;
+width: 90px;
+} </string>
+    </property>
+    <property name="currentIndex">
+     <number>2</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>   컵   </string>
+     </attribute>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>334</width>
+        <height>501</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <property name="spacing">
+        <number>15</number>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_13">
+         <item>
+          <widget class="QLabel" name="LB_CUP_1">
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QProgressBar" name="PB_CUP_1">
+           <property name="value">
+            <number>24</number>
+           </property>
+           <property name="format">
+            <string>%p%</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_9">
+         <property name="spacing">
+          <number>15</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="BTN_CUP_NOUSE_1">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>60</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>사용안함</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_CUP_HALF_1">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>60</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>절반</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_CUP_FULL_1">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>60</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>FULL</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_14">
+         <item>
+          <widget class="QLabel" name="LB_CUP_2">
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QProgressBar" name="PB_CUP_2">
+           <property name="value">
+            <number>24</number>
+           </property>
+           <property name="format">
+            <string>%p%</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_10">
+         <property name="spacing">
+          <number>15</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="BTN_CUP_NOUSE_2">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>60</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>사용안함</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_CUP_HALF_2">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>60</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>절반</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_CUP_FULL_2">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>60</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>FULL</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_15">
+         <item>
+          <widget class="QLabel" name="LB_CUP_3">
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QProgressBar" name="PB_CUP_3">
+           <property name="value">
+            <number>24</number>
+           </property>
+           <property name="format">
+            <string>%p%</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_11">
+         <property name="spacing">
+          <number>15</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="BTN_CUP_NOUSE_3">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>60</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>사용안함</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_CUP_HALF_3">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>60</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>절반</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_CUP_FULL_3">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>60</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>FULL</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_16">
+         <item>
+          <widget class="QLabel" name="LB_CUP_4">
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QProgressBar" name="PB_CUP_4">
+           <property name="value">
+            <number>24</number>
+           </property>
+           <property name="format">
+            <string>%p%</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_12">
+         <property name="spacing">
+          <number>15</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="BTN_CUP_NOUSE_4">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>60</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>사용안함</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_CUP_HALF_4">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>60</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>절반</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_CUP_FULL_4">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>60</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>FULL</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>  시럽  </string>
+     </attribute>
+     <widget class="QLabel" name="LB_SYRUP_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="PB_SYRUP_3">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>120</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+      <property name="format">
+       <string>%p%</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="PB_SYRUP_5">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>220</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+      <property name="format">
+       <string>%p%</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LB_SYRUP_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>120</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="PB_SYRUP_1">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>20</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+      <property name="format">
+       <string>%p%</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LB_SYRUP_5">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>220</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="PB_SYRUP_4">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>170</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+      <property name="format">
+       <string>%p%</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="PB_SYRUP_6">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>270</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+      <property name="format">
+       <string>%p%</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LB_SYRUP_1">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LB_SYRUP_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QProgressBar" name="PB_SYRUP_2">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>70</y>
+        <width>171</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="value">
+       <number>24</number>
+      </property>
+      <property name="format">
+       <string>%p%</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LB_SYRUP_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>170</y>
+        <width>91</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BTN_SYRUP_REPLACE_1">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>20</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>교체</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BTN_SYRUP_REPLACE_2">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>70</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>교체</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BTN_SYRUP_REPLACE_3">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>120</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>교체</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BTN_SYRUP_REPLACE_4">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>170</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>교체</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BTN_SYRUP_REPLACE_5">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>220</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>교체</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BTN_SYRUP_REPLACE_6">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>270</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>교체</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>  소스  </string>
+     </attribute>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>341</width>
+        <height>683</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_17">
+         <item>
+          <widget class="QLabel" name="LB_SAUCE_1">
+           <property name="minimumSize">
+            <size>
+             <width>120</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>함초롬돋움</family>
+             <pointsize>10</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QProgressBar" name="PB_SAUCE_1">
+           <property name="minimumSize">
+            <size>
+             <width>200</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="value">
+            <number>24</number>
+           </property>
+           <property name="format">
+            <string>%p%</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_18">
+         <property name="spacing">
+          <number>5</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetMinimumSize</enum>
+         </property>
+         <property name="leftMargin">
+          <number>130</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="BTN_SAUCE_NOUSE_1">
+           <property name="minimumSize">
+            <size>
+             <width>60</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>없음</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_SAUCE_REPLACE_1">
+           <property name="minimumSize">
+            <size>
+             <width>60</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>교체</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_19">
+         <item>
+          <widget class="QLabel" name="LB_SAUCE_2">
+           <property name="minimumSize">
+            <size>
+             <width>120</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>함초롬돋움</family>
+             <pointsize>10</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QProgressBar" name="PB_SAUCE_2">
+           <property name="minimumSize">
+            <size>
+             <width>200</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="value">
+            <number>24</number>
+           </property>
+           <property name="format">
+            <string>%p%</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_20">
+         <property name="spacing">
+          <number>5</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetMinimumSize</enum>
+         </property>
+         <property name="leftMargin">
+          <number>130</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="BTN_SAUCE_NOUSE_2">
+           <property name="minimumSize">
+            <size>
+             <width>60</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>없음</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_SAUCE_REPLACE_2">
+           <property name="minimumSize">
+            <size>
+             <width>60</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>교체</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_21">
+         <item>
+          <widget class="QLabel" name="LB_SAUCE_3">
+           <property name="minimumSize">
+            <size>
+             <width>120</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>함초롬돋움</family>
+             <pointsize>10</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QProgressBar" name="PB_SAUCE_3">
+           <property name="minimumSize">
+            <size>
+             <width>200</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="value">
+            <number>24</number>
+           </property>
+           <property name="format">
+            <string>%p%</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_22">
+         <property name="spacing">
+          <number>5</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetMinimumSize</enum>
+         </property>
+         <property name="leftMargin">
+          <number>130</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="BTN_SAUCE_NOUSE_3">
+           <property name="minimumSize">
+            <size>
+             <width>60</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>없음</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_SAUCE_REPLACE_3">
+           <property name="minimumSize">
+            <size>
+             <width>60</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>교체</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_31">
+         <item>
+          <widget class="QLabel" name="LB_SAUCE_4">
+           <property name="minimumSize">
+            <size>
+             <width>120</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>함초롬돋움</family>
+             <pointsize>10</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QProgressBar" name="PB_SAUCE_4">
+           <property name="minimumSize">
+            <size>
+             <width>200</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="value">
+            <number>24</number>
+           </property>
+           <property name="format">
+            <string>%p%</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_23">
+         <property name="spacing">
+          <number>5</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetMinimumSize</enum>
+         </property>
+         <property name="leftMargin">
+          <number>130</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="BTN_SAUCE_NOUSE_4">
+           <property name="minimumSize">
+            <size>
+             <width>60</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>없음</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_SAUCE_REPLACE_4">
+           <property name="minimumSize">
+            <size>
+             <width>60</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>교체</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_30">
+         <item>
+          <widget class="QLabel" name="LB_SAUCE_5">
+           <property name="minimumSize">
+            <size>
+             <width>120</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>함초롬돋움</family>
+             <pointsize>10</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QProgressBar" name="PB_SAUCE_5">
+           <property name="minimumSize">
+            <size>
+             <width>200</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="value">
+            <number>24</number>
+           </property>
+           <property name="format">
+            <string>%p%</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_24">
+         <property name="spacing">
+          <number>5</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetMinimumSize</enum>
+         </property>
+         <property name="leftMargin">
+          <number>130</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="BTN_SAUCE_NOUSE_5">
+           <property name="minimumSize">
+            <size>
+             <width>60</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>없음</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_SAUCE_REPLACE_5">
+           <property name="minimumSize">
+            <size>
+             <width>60</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>교체</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_32">
+         <item>
+          <widget class="QLabel" name="LB_SAUCE_6">
+           <property name="minimumSize">
+            <size>
+             <width>120</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>함초롬돋움</family>
+             <pointsize>10</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QProgressBar" name="PB_SAUCE_6">
+           <property name="minimumSize">
+            <size>
+             <width>200</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="value">
+            <number>24</number>
+           </property>
+           <property name="format">
+            <string>%p%</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_25">
+         <property name="spacing">
+          <number>5</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetMinimumSize</enum>
+         </property>
+         <property name="leftMargin">
+          <number>130</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="BTN_SAUCE_NOUSE_6">
+           <property name="minimumSize">
+            <size>
+             <width>60</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>없음</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_SAUCE_REPLACE_6">
+           <property name="minimumSize">
+            <size>
+             <width>60</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>교체</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_29">
+         <item>
+          <widget class="QLabel" name="LB_SAUCE_7">
+           <property name="minimumSize">
+            <size>
+             <width>120</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>함초롬돋움</family>
+             <pointsize>10</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QProgressBar" name="PB_SAUCE_7">
+           <property name="minimumSize">
+            <size>
+             <width>200</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="value">
+            <number>24</number>
+           </property>
+           <property name="format">
+            <string>%p%</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_26">
+         <property name="spacing">
+          <number>5</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetMinimumSize</enum>
+         </property>
+         <property name="leftMargin">
+          <number>130</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="BTN_SAUCE_NOUSE_7">
+           <property name="minimumSize">
+            <size>
+             <width>60</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>없음</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_SAUCE_REPLACE_7">
+           <property name="minimumSize">
+            <size>
+             <width>60</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>교체</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_28">
+         <item>
+          <widget class="QLabel" name="LB_SAUCE_8">
+           <property name="minimumSize">
+            <size>
+             <width>120</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>함초롬돋움</family>
+             <pointsize>10</pointsize>
+             <weight>50</weight>
+             <italic>false</italic>
+             <bold>false</bold>
+            </font>
+           </property>
+           <property name="text">
+            <string>TextLabel</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QProgressBar" name="PB_SAUCE_8">
+           <property name="minimumSize">
+            <size>
+             <width>200</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="value">
+            <number>24</number>
+           </property>
+           <property name="format">
+            <string>%p%</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_27">
+         <property name="spacing">
+          <number>5</number>
+         </property>
+         <property name="sizeConstraint">
+          <enum>QLayout::SetMinimumSize</enum>
+         </property>
+         <property name="leftMargin">
+          <number>130</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="BTN_SAUCE_NOUSE_8">
+           <property name="minimumSize">
+            <size>
+             <width>60</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>없음</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_SAUCE_REPLACE_8">
+           <property name="minimumSize">
+            <size>
+             <width>60</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>100</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>교체</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_4">
+     <attribute name="title">
+      <string>기타</string>
+     </attribute>
+     <widget class="QPushButton" name="BTN_DB_RELOAD">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>750</y>
+        <width>121</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>DB reload</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>27</x>
+        <y>20</y>
+        <width>301</width>
+        <height>461</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <property name="spacing">
+        <number>10</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <property name="spacing">
+          <number>20</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="LB_ICECREAM">
+           <property name="text">
+            <string>icecream</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <item>
+            <widget class="QProgressBar" name="PB_ICECREAM">
+             <property name="value">
+              <number>24</number>
+             </property>
+             <property name="format">
+              <string>%p%</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <property name="spacing">
+              <number>20</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="BTN_ICECREAM_ADD">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>1L추가</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="BTN_ICECREAM_NOUSE">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>50</height>
+                </size>
+               </property>
+               <property name="text">
+                <string>사용안함</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <property name="spacing">
+          <number>20</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="LB_MILK">
+           <property name="text">
+            <string>milk</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_MILK_USE">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>사용</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_MILK_NOUSE">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>사용안함</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <property name="spacing">
+          <number>20</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="LB_COFFEE">
+           <property name="text">
+            <string>coffee</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_COFFEE_USE">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>사용</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_COFFEE_NOUSE">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>사용안함</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_8">
+         <property name="spacing">
+          <number>20</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="LB_ICE_1">
+           <property name="text">
+            <string>ice1</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_ICE1_USE">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>사용</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_ICE1_NOUSE">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>사용안함</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_7">
+         <property name="spacing">
+          <number>20</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="LB_ICE_2">
+           <property name="text">
+            <string>ice2</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_ICE2_USE">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>사용</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_ICE2_NOUSE">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>사용안함</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_6">
+         <property name="spacing">
+          <number>20</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="LB_HOT_WATER">
+           <property name="text">
+            <string>hot</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_HOT_USE">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>사용</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_HOT_NOUSE">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>사용안함</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <property name="spacing">
+          <number>20</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="LB_SODA">
+           <property name="text">
+            <string>soda</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_SODA_USE">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>사용</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="BTN_SODA_NOUSE">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>50</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>사용안함</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>610</y>
+        <width>341</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_33">
+       <property name="spacing">
+        <number>15</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>제빙기 로테이션</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="0">
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>얼음1</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLineEdit" name="LE_ICE_ROTATE_1">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>10</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>회</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_2">
+           <property name="text">
+            <string>얼음2</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="LE_ICE_ROTATE_2">
+           <property name="minimumSize">
+            <size>
+             <width>0</width>
+             <height>40</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>10</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>회</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <widget class="QPushButton" name="BTN_ICE_ROTATE">
+         <property name="minimumSize">
+          <size>
+           <width>80</width>
+           <height>80</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>수정</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

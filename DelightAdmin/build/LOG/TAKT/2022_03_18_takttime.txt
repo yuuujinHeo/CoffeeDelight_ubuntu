@@ -1,0 +1,184 @@
+[10:20:56]===============================================================
+[10:20:56]     START MEASURE :: 체리에이드
+[10:20:56]---------------------------------------------------------------
+[10:20:57]  START CUP    : 0.20 sec
+[10:21:02]  READY CUP    : 5.52 sec
+[10:21:05]  DISPENSE CUP    : 2.88 sec
+[10:21:08]  START ICE    : 2.80 sec
+[10:21:14]  READY ICE    : 5.93 sec
+[10:21:18]  DISPENSE ICE    : 4.08 sec
+[10:21:19]  START BASE    : 1.40 sec
+[10:21:27]  READY BASE    : 7.80 sec
+[10:21:28]  READY BASE    : 1.13 sec
+[10:21:29]  READY BASE    : 1.20 sec
+[10:21:31]  DISPENSE BASE    : 1.20 sec
+[10:21:36]  START SYRUP    : 5.27 sec
+[10:21:40]  READY SYRUP    : 4.00 sec
+[10:21:46]  DISPENSE SYRUP    : 6.32 sec
+[10:21:49]  START SODA    : 2.80 sec
+[10:21:57]  READY SODA    : 7.67 sec
+[10:22:07]  DISPENSE SODA    : 10.00 sec
+[10:22:10]  START OUTLET    : 3.13 sec
+[10:22:12]  READY OUTLET    : 2.59 sec
+[10:22:12]  READY OUTLET    : 0.00 sec
+[10:22:18]  DISPENSE OUTLET    : 5.48 sec
+[10:22:19]     STOP MEASURE :: 체리에이드
+[10:22:19]     TAKT TIME :: 82.13 sec
+[10:22:19]===============================================================
+
+
+
+[10:27:48]===============================================================
+[10:27:48]     START MEASURE :: 체리에이드
+[10:27:48]---------------------------------------------------------------
+[10:27:48]  START CUP    : 0.20 sec
+[10:27:53]  READY CUP    : 5.48 sec
+[10:27:56]  DISPENSE CUP    : 2.79 sec
+[10:27:59]  START ICE    : 2.73 sec
+[10:28:05]  READY ICE    : 5.87 sec
+[10:28:09]  DISPENSE ICE    : 4.12 sec
+[10:28:10]  START BASE    : 1.48 sec
+[10:28:18]  READY BASE    : 7.80 sec
+[10:28:19]  READY BASE    : 1.20 sec
+[10:28:20]  READY BASE    : 1.12 sec
+[10:28:22]  DISPENSE BASE    : 1.20 sec
+[10:28:27]  START SYRUP    : 5.28 sec
+[10:28:31]  READY SYRUP    : 4.00 sec
+[10:28:46]  DISPENSE SYRUP    : 15.20 sec
+[10:28:49]  START SODA    : 2.73 sec
+[10:28:54]  READY SODA    : 4.79 sec
+[10:29:04]  DISPENSE SODA    : 10.48 sec
+[10:29:10]  READY OUTLET    : 6.40 sec
+[10:29:10]  READY OUTLET    : 0.00 sec
+[10:29:16]  DISPENSE OUTLET    : 5.31 sec
+[10:29:17]     STOP MEASURE :: 체리에이드
+[10:29:17]     TAKT TIME :: 89.08 sec
+[10:29:17]===============================================================
+
+
+
+[10:35:16]===============================================================
+[10:35:16]     START MEASURE :: 체리에이드
+[10:35:16]---------------------------------------------------------------
+[10:35:16]  START CUP    : 0.20 sec
+[10:35:22]  READY CUP    : 5.72 sec
+[10:35:25]  DISPENSE CUP    : 2.68 sec
+[10:35:28]  START ICE    : 2.92 sec
+[10:35:34]  READY ICE    : 6.08 sec
+[10:35:38]  DISPENSE ICE    : 4.12 sec
+[10:35:40]  START BASE    : 1.60 sec
+[10:35:48]  READY BASE    : 8.00 sec
+[10:35:49]  READY BASE    : 1.28 sec
+[10:35:50]  READY BASE    : 1.31 sec
+[10:35:51]  DISPENSE BASE    : 1.28 sec
+[10:35:57]  START SYRUP    : 5.40 sec
+[10:36:01]  READY SYRUP    : 4.20 sec
+[10:36:16]  DISPENSE SYRUP    : 15.32 sec
+[10:36:19]  START SODA    : 2.88 sec
+[10:36:27]  READY SODA    : 7.92 sec
+[10:36:37]  DISPENSE SODA    : 9.88 sec
+[10:36:40]  START OUTLET    : 3.20 sec
+[10:36:43]  READY OUTLET    : 2.80 sec
+[10:36:44]  READY OUTLET    : 1.00 sec
+[10:36:50]  DISPENSE OUTLET    : 5.60 sec
+[10:36:50]     STOP MEASURE :: 체리에이드
+[10:36:50]     TAKT TIME :: 94.20 sec
+[10:36:50]===============================================================
+
+
+
+[10:36:51]===============================================================
+[10:36:51]     START MEASURE :: 복숭아 티
+[10:36:51]---------------------------------------------------------------
+[10:36:51]  START CUP    : 0.20 sec
+[10:36:56]  READY CUP    : 5.40 sec
+[10:36:59]  DISPENSE CUP    : 2.80 sec
+[10:37:02]  START SYRUP    : 2.68 sec
+[10:37:08]  READY SYRUP    : 6.40 sec
+[10:37:24]  DISPENSE SYRUP    : 15.32 sec
+[10:37:24]  START SYRUP    : 0.20 sec
+[10:37:24]  READY SYRUP    : 0.48 sec
+[10:37:39]  DISPENSE SYRUP    : 15.20 sec
+[10:37:42]  START HOT    : 2.80 sec
+[10:37:48]  READY HOT    : 5.40 sec
+[10:37:58]  DISPENSE HOT    : 10.40 sec
+[10:38:04]  READY OUTLET    : 5.52 sec
+[10:38:04]  READY OUTLET    : 0.00 sec
+[10:38:09]  DISPENSE OUTLET    : 5.40 sec
+[10:38:10]     STOP MEASURE :: 복숭아 티
+[10:38:10]     TAKT TIME :: 79.20 sec
+[10:38:10]===============================================================
+
+
+
+[14:18:43]===============================================================
+[14:18:43]     START MEASURE :: 청포도에이드
+[14:18:43]---------------------------------------------------------------
+[14:18:44]  START CUP    : 0.20 sec
+[14:18:49]  READY CUP    : 5.51 sec
+[14:18:52]  DISPENSE CUP    : 2.99 sec
+[14:18:55]  START ICE    : 2.80 sec
+[14:19:01]  READY ICE    : 5.89 sec
+[14:19:05]  DISPENSE ICE    : 4.11 sec
+[14:19:06]  START BASE    : 1.49 sec
+[14:19:14]  READY BASE    : 7.20 sec
+[14:19:15]  READY BASE    : 1.20 sec
+[14:19:16]  DISPENSE BASE    : 1.20 sec
+[14:19:21]  START SODA    : 5.12 sec
+[14:19:29]  READY SODA    : 7.68 sec
+[14:19:39]  DISPENSE SODA    : 10.00 sec
+[14:19:42]  START OUTLET    : 3.12 sec
+[14:19:45]  READY OUTLET    : 2.60 sec
+[14:19:45]  READY OUTLET    : 0.00 sec
+[14:19:50]  DISPENSE OUTLET    : 5.49 sec
+[14:19:51]     STOP MEASURE :: 청포도에이드
+[14:19:51]     TAKT TIME :: 67.31 sec
+[14:19:51]===============================================================
+
+
+
+[15:34:37]===============================================================
+[15:34:37]     START MEASURE :: 청포도에이드
+[15:34:37]---------------------------------------------------------------
+[15:34:37]  START CUP    : 0.20 sec
+[15:37:02]===============================================================
+[15:37:02]     START MEASURE :: 딸기에이드
+[15:37:02]---------------------------------------------------------------
+[15:37:03]  START CUP    : 0.20 sec
+[15:42:02]===============================================================
+[15:42:02]     START MEASURE :: 딸기에이드
+[15:42:02]---------------------------------------------------------------
+[15:42:02]  START CUP    : 0.20 sec
+[15:42:06]  READY CUP    : 4.08 sec
+[15:42:09]  READY CUP    : 2.80 sec
+[15:42:12]  READY CUP    : 2.80 sec
+[15:42:14]  READY CUP    : 2.80 sec
+[15:44:17]===============================================================
+[15:44:17]     START MEASURE :: 딸기에이드
+[15:44:17]---------------------------------------------------------------
+[15:44:17]  START CUP    : 0.20 sec
+[15:44:21]  READY CUP    : 3.92 sec
+[15:44:24]  DISPENSE CUP    : 2.88 sec
+[15:44:26]  START ICE    : 2.00 sec
+[15:44:30]  READY ICE    : 4.40 sec
+[15:44:35]  DISPENSE ICE    : 4.12 sec
+[15:44:36]  START BASE    : 1.40 sec
+[15:44:44]  READY BASE    : 7.68 sec
+[15:44:45]  READY BASE    : 1.20 sec
+[15:44:46]  DISPENSE BASE    : 1.12 sec
+[15:44:51]  START SYRUP    : 5.00 sec
+[15:44:55]  READY SYRUP    : 3.88 sec
+[15:44:56]  DISPENSE SYRUP    : 0.80 sec
+[15:44:58]  START SODA    : 2.60 sec
+[15:45:05]  READY SODA    : 7.00 sec
+[15:45:16]  DISPENSE SODA    : 10.72 sec
+[15:45:18]  START OUTLET    : 2.48 sec
+[15:45:20]  READY OUTLET    : 2.00 sec
+[15:45:20]  READY OUTLET    : 0.00 sec
+[15:45:25]  DISPENSE OUTLET    : 4.52 sec
+[15:45:26]     STOP MEASURE :: 딸기에이드
+[15:45:26]     TAKT TIME :: 68.72 sec
+[15:45:26]===============================================================
+
+
+

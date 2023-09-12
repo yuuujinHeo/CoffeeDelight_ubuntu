@@ -1,0 +1,4926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #FFC600;</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QPushButton" name="BTN_EXIT">
+    <property name="geometry">
+     <rect>
+      <x>1800</x>
+      <y>0</y>
+      <width>89</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resource.qrc">
+      <normaloff>:/build/image/powerw.png</normaloff>:/build/image/powerw.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BTN_UI_LOCK">
+    <property name="geometry">
+     <rect>
+      <x>1580</x>
+      <y>0</y>
+      <width>89</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resource.qrc">
+      <normaloff>:/build/image/lockw.png</normaloff>:/build/image/lockw.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QFrame" name="FRAME_DEVICE">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>110</y>
+      <width>401</width>
+      <height>971</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(239, 239, 239);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BTN_SETTING">
+    <property name="geometry">
+     <rect>
+      <x>1680</x>
+      <y>0</y>
+      <width>111</width>
+      <height>110</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #FFC600;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resource.qrc">
+      <normaloff>:/build/image/settingw.png</normaloff>:/build/image/settingw.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+    <property name="flat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QFrame" name="FRAME">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>110</y>
+      <width>1521</width>
+      <height>971</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 255, 255);
+QLabel{ 
+   border: 0px solid
+} 
+font: 9pt &quot;함초롬돋움&quot;;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="lineWidth">
+     <number>3</number>
+    </property>
+    <widget class="QFrame" name="FRAME_COFFEE">
+     <property name="geometry">
+      <rect>
+       <x>1160</x>
+       <y>560</y>
+       <width>331</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame { 
+   border: 1px solid #595959 
+} 
+QLabel {
+	font: 10pt &quot;함초롬돋움&quot;;
+}
+QPushButton {
+	border:1px solid #595959;
+	font: 15pt &quot;함초롬돋움&quot;; 
+}
+QLineEdit {
+	font: 10pt &quot;함초롬돋움&quot;;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>2</number>
+     </property>
+     <widget class="QPushButton" name="BTN_DEV_INFO_COFFEE">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>331</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>커피 (WMF)</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>291</width>
+        <height>48</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_8">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_124">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>연결안됨</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="label_125">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>준비중</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="label_127">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>에러발생</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QLabel" name="label_126">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>준비완료</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <widget class="QLabel" name="label_128">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>제조중</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLineEdit" name="LE_MACHINE_STATUS_NOT_CONNECTED">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="LE_MACHINE_STATUS_PREPAREING">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLineEdit" name="LE_MACHINE_STATUS_ERROR_OCCURED">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLineEdit" name="LE_MACHINE_STATUS_ON_READY">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4">
+        <widget class="QLineEdit" name="LE_MACHINE_STATUS_MAKING">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>217</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_9">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_111">
+         <property name="minimumSize">
+          <size>
+           <width>80</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>시스템 청소</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="LE_SYS_CLEAN_TIME_HOUR">
+         <property name="maximumSize">
+          <size>
+           <width>20</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="label_114">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>시</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QLineEdit" name="LE_SYS_CLEAN_TIME_MINUTE">
+         <property name="maximumSize">
+          <size>
+           <width>20</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <widget class="QLabel" name="label_115">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>분</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="5">
+        <widget class="QLineEdit" name="LE_SYS_CLEAN_TIME_SECOND">
+         <property name="maximumSize">
+          <size>
+           <width>20</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="6">
+        <widget class="QLabel" name="label_116">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>초</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_112">
+         <property name="minimumSize">
+          <size>
+           <width>80</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>우유 청소</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="LE_MILK_CLEAN_TIME_HOUR">
+         <property name="maximumSize">
+          <size>
+           <width>20</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLabel" name="label_118">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>시</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLineEdit" name="LE_MILK_CLEAN_TIME_MINUTE">
+         <property name="maximumSize">
+          <size>
+           <width>20</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4">
+        <widget class="QLabel" name="label_119">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>분</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="5">
+        <widget class="QLineEdit" name="LE_MILK_CLEAN_TIME_SECOND">
+         <property name="maximumSize">
+          <size>
+           <width>20</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="6">
+        <widget class="QLabel" name="label_117">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>초</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_113">
+         <property name="minimumSize">
+          <size>
+           <width>80</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>우유 관 청소</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="LE_MILK_REPLACE_TIME_HOUR">
+         <property name="maximumSize">
+          <size>
+           <width>20</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLabel" name="label_121">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>시</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLineEdit" name="LE_MILK_REPLACE_TIME_MINUTE">
+         <property name="maximumSize">
+          <size>
+           <width>20</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="4">
+        <widget class="QLabel" name="label_122">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>분</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="5">
+        <widget class="QLineEdit" name="LE_MILK_REPLACE_TIME_SECOND">
+         <property name="maximumSize">
+          <size>
+           <width>20</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="6">
+        <widget class="QLabel" name="label_120">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>초</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>110</y>
+        <width>52</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="label_123">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>청소중</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="LE_MACHINE_STATUS_SYS_CLEANING">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="LE_MACHINE_STATUS_MILK_CLEANING">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="LE_MACHINE_STATUS_MILK_REPLACING">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="FRAME_ICE_1">
+     <property name="geometry">
+      <rect>
+       <x>1190</x>
+       <y>20</y>
+       <width>301</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame { 
+   border: 1px solid #595959 
+} 
+QLabel {
+	font: 10pt &quot;함초롬돋움&quot;;
+}
+QPushButton {
+	border:1px solid #595959;
+	font: 15pt &quot;함초롬돋움&quot;; 
+}
+QLineEdit {
+	font: 10pt &quot;함초롬돋움&quot;;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>2</number>
+     </property>
+     <widget class="QPushButton" name="BTN_DEV_INFO_ICE_1">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>301</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>얼음 디스펜서1</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>70</y>
+        <width>211</width>
+        <height>42</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_7">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>만빙 : </string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="LB_ICE_1_FULL">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>만빙아님</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>에러 : </string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="LB_ICE_1_ERROR">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>에러없음</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="FRAME_SODA">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>340</y>
+       <width>301</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame { 
+   border: 1px solid #595959 
+} 
+QLabel {
+	font: 10pt &quot;함초롬돋움&quot;;
+}
+QPushButton {
+	border:1px solid #595959;
+	font: 15pt &quot;함초롬돋움&quot;; 
+}
+QLineEdit {
+	font: 10pt &quot;함초롬돋움&quot;;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="BTN_DEV_INFO_SODA">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>301</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>탄산수</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_5">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>60</y>
+        <width>111</width>
+        <height>65</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_16">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>로드셀 :</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="LB_SODA_LOADCELL">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_15">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>최종 에러 :</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="LB_SODA_LAST_ERROR">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_14">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>현재 동작 :</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="LB_SODA_OP_STATE">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="FRAME_SYRUP">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>180</y>
+       <width>301</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame { 
+   border: 1px solid #595959 
+} 
+QLabel {
+	font: 10pt &quot;함초롬돋움&quot;;
+}
+QPushButton {
+	border:1px solid #595959;
+	font: 15pt &quot;함초롬돋움&quot;; 
+}
+QLineEdit {
+	font: 10pt &quot;함초롬돋움&quot;;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="BTN_DEV_INFO_SYRUP">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>301</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>시럽 디스펜서</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_6">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>60</y>
+        <width>111</width>
+        <height>65</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_5">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>로드셀 :</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="LB_SYRUP_LOADCELL">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_6">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>최종 에러 :</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="LB_SYRUP_LAST_ERROR">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_7">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>현재 동작 :</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="LB_SYRUP_OP_STATE">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="FRAME_OUTLET">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>760</y>
+       <width>421</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame { 
+   border: 1px solid #595959 
+} 
+QLabel {
+	font: 10pt &quot;함초롬돋움&quot;;
+}
+QPushButton {
+	border:1px solid #595959;
+	font: 15pt &quot;함초롬돋움&quot;; 
+}
+QLineEdit {
+	font: 10pt &quot;함초롬돋움&quot;;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="BTN_DEV_INFO_OUTLET">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>421</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>배출구</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LE_OUTLET_M_1_DOOR_OPEN">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>60</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>열림</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LE_OUTLET_M_1_DOOR_CLOSE">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>60</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>닫힘</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LE_OUTLET_M_1_CUP_DETECT">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>60</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>컵감지</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LE_OUTLET_M_2_DOOR_OPEN">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>60</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>열림</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LE_OUTLET_M_2_DOOR_CLOSE">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>60</y>
+        <width>41</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>닫힘</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LE_OUTLET_M_2_CUP_DETECT">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>60</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>컵감지</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_7">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>100</y>
+        <width>361</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="2" column="1">
+        <widget class="QLabel" name="LB_OUTLET_M_1_CELL_3">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_22">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>Cell 2:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLabel" name="label_26">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>Cell 3:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="LB_OUTLET_M_1_CELL_1">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_21">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>Cell 1:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <widget class="QLabel" name="LB_OUTLET_M_2_CELL_1">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4">
+        <widget class="QLabel" name="LB_OUTLET_M_2_CELL_2">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="4">
+        <widget class="QLabel" name="LB_OUTLET_M_2_CELL_3">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QLabel" name="label_24">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>Cell 1:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="LB_OUTLET_M_1_CELL_2">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLabel" name="label_25">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>Cell 2:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_23">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>Cell 3:</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="FRAME_MONITOR">
+     <property name="geometry">
+      <rect>
+       <x>500</x>
+       <y>20</y>
+       <width>291</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame { 
+   border: 1px solid #595959 
+} 
+QLabel {
+	font: 10pt &quot;함초롬돋움&quot;;
+}
+QPushButton {
+	border:1px solid #595959;
+	font: 15pt &quot;함초롬돋움&quot;; 
+}
+QLineEdit {
+	font: 10pt &quot;함초롬돋움&quot;;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="BTN_DEV_INFO_MONITOR">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>291</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>현황판</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_8">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>70</y>
+        <width>171</width>
+        <height>65</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_6">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_18">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>제조중 음료 :</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="LB_MONITOR_INPROGRESS">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_19">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>대기중 음료 :</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="LB_MONITOR_WAITING">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_20">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>완료된 음료 :</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="LB_MONITOR_COMPLETED">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="FRAME_CUP">
+     <property name="geometry">
+      <rect>
+       <x>1190</x>
+       <y>170</y>
+       <width>301</width>
+       <height>211</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame { 
+   border: 1px solid #595959 
+} 
+QLabel {
+	font: 10pt &quot;함초롬돋움&quot;;
+}
+QPushButton {
+	border:1px solid #595959;
+	font: 15pt &quot;함초롬돋움&quot;; 
+}
+QLineEdit {
+	font: 10pt &quot;함초롬돋움&quot;;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="BTN_DEV_INFO_CUP">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>301</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>컵 디스펜서</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="BTN_CUP_ADD_DONE">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>140</y>
+        <width>71</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame { 
+   border: 2px solid #595959 
+} 
+QLabel {
+	font: 10pt &quot;함초롬돋움&quot;;
+}
+QPushButton {
+	font: 10pt &quot;함초롬돋움&quot;; 
+}
+QLineEdit {
+	font: 10pt &quot;함초롬돋움&quot;;
+}</string>
+      </property>
+      <property name="text">
+       <string>컵
+추가 완료</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_9">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>191</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_11">
+       <item row="0" column="1">
+        <widget class="QLabel" name="label_27">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>종이컵1</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLabel" name="label_33">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>종이컵2</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_30">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>최종 에러 :</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="LB_CUP_1_LAST_ERROR">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLabel" name="LB_CUP_2_LAST_ERROR">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_29">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>현재 동작 :</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="LB_CUP_1_OP_STATE">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLabel" name="LB_CUP_2_OP_STATE">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLabel" name="label_28">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>PET컵1</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QLabel" name="label_34">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>PET컵2</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_31">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>최종 에러 :</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLabel" name="LB_CUP_3_LAST_ERROR">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="2">
+        <widget class="QLabel" name="LB_CUP_4_LAST_ERROR">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_32">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>현재 동작 :</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLabel" name="LB_CUP_3_OP_STATE">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="2">
+        <widget class="QLabel" name="LB_CUP_4_OP_STATE">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="FRAME_ROBOT">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>430</y>
+       <width>311</width>
+       <height>191</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame { 
+   border: 1px solid #595959 
+} 
+QLabel {
+	font: 10pt &quot;함초롬돋움&quot;;
+}
+QPushButton {
+	border:1px solid #595959;
+	font: 15pt &quot;함초롬돋움&quot;; 
+}
+QLineEdit {
+	font: 10pt &quot;함초롬돋움&quot;;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="BTN_DEV_INFO_ROBOT">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>311</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>로봇</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_91">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+      </property>
+      <property name="text">
+       <string>동작 프로그램</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LE_ROBOT_PRG_CONNECT">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>60</y>
+        <width>51</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>통신</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LE_ROBOT_PRG_WORKING_STATUS">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>60</y>
+        <width>51</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>실행</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="Line" name="line">
+      <property name="geometry">
+       <rect>
+        <x>230</x>
+        <y>50</y>
+        <width>2</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LE_ROBOT_INIT_BASE_ANGLE">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>90</y>
+        <width>51</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>베이스</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LE_ROBOT_INIT_POSITION">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>120</y>
+        <width>51</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>자세</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_92">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>60</y>
+        <width>51</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+      </property>
+      <property name="text">
+       <string>초기화</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_10">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>100</y>
+        <width>212</width>
+        <height>74</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_10">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="LE_ROBOT_STATE_MOVING">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>동작중</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QLineEdit" name="LE_ROBOT_STATUS_TEACHING">
+         <property name="maximumSize">
+          <size>
+           <width>60</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>티칭중</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="LE_ROBOT_STATE_IDLE">
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>대기중</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QLineEdit" name="LE_PG_MODE_REAL">
+         <property name="maximumSize">
+          <size>
+           <width>40</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>리얼</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLineEdit" name="LE_PG_MODE_SIMULATION">
+         <property name="maximumSize">
+          <size>
+           <width>40</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>시뮬</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLineEdit" name="LE_ROBOT_STATUS_SELF_COLLISION">
+         <property name="maximumSize">
+          <size>
+           <width>60</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>자가충돌</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QLineEdit" name="LE_ROBOT_STATUS_EXT_COLLISION">
+         <property name="maximumSize">
+          <size>
+           <width>60</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>외부충돌</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="3">
+        <widget class="QLineEdit" name="LE_ROBOT_STATUS_PAUSED">
+         <property name="maximumSize">
+          <size>
+           <width>60</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>일시정지</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLineEdit" name="LE_ROBOT_STATUS_EMS">
+         <property name="maximumSize">
+          <size>
+           <width>60</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>EMS</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <widget class="QLineEdit" name="LE_ROBOT_STATUS_SOS">
+         <property name="maximumSize">
+          <size>
+           <width>60</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="text">
+          <string>SOS</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="FRAME_HOT">
+     <property name="geometry">
+      <rect>
+       <x>1190</x>
+       <y>400</y>
+       <width>301</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame { 
+   border: 1px solid #595959 
+} 
+QLabel {
+	font: 10pt &quot;함초롬돋움&quot;;
+}
+QPushButton {
+	border:1px solid #595959;
+	font: 15pt &quot;함초롬돋움&quot;; 
+}
+QLineEdit {
+	font: 10pt &quot;함초롬돋움&quot;;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>2</number>
+     </property>
+     <widget class="QPushButton" name="BTN_DEV_INFO_HOT">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>301</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>온수 디스펜서</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_11">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>60</y>
+        <width>211</width>
+        <height>65</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_12">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_10">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>로드셀 :</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="LB_HOT_LOADCELL">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_9">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>최종 에러 :</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="LB_HOT_LAST_ERROR">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_8">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>현재 동작 :</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="LB_HOT_OP_STATE">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="FRAME_ICECREAM">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>301</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame { 
+   border: 1px solid #595959 
+} 
+QLabel {
+	font: 10pt &quot;함초롬돋움&quot;;
+}
+QPushButton {
+	border:1px solid #595959;
+	font: 15pt &quot;함초롬돋움&quot;; 
+}
+QLineEdit {
+	font: 10pt &quot;함초롬돋움&quot;;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="BTN_DEV_INFO_ICECREAM">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>301</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>아이스크림</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_12">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>60</y>
+        <width>111</width>
+        <height>65</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_13">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>로드셀 :</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="LB_ICECREAM_LOADCELL">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_12">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>최종 에러 :</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="LB_ICECREAM_LAST_ERROR">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_11">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>현재 동작 :</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLabel" name="LB_ICECREAM_OP_STATE">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="FRAME_BARCODE">
+     <property name="geometry">
+      <rect>
+       <x>870</x>
+       <y>760</y>
+       <width>171</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame { 
+   border: 1px solid #595959 
+} 
+QLabel {
+	font: 10pt &quot;함초롬돋움&quot;;
+}
+QPushButton {
+	border:1px solid #595959;
+	font: 15pt &quot;함초롬돋움&quot;; 
+}
+QLineEdit {
+	font: 10pt &quot;함초롬돋움&quot;;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="BTN_DEV_INFO_BARCODE">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>171</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>바코드</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_17">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>111</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+      </property>
+      <property name="text">
+       <string>마지막 바코드 :</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LB_BARCODE_LAST_DATA">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>90</y>
+        <width>151</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="FRAME_DOOR">
+     <property name="geometry">
+      <rect>
+       <x>810</x>
+       <y>20</y>
+       <width>221</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame { 
+   border: 1px solid #595959 
+} 
+QLabel {
+	font: 10pt &quot;함초롬돋움&quot;;
+}
+QPushButton {
+	border:1px solid #595959;
+	font: 15pt &quot;함초롬돋움&quot;; 
+}
+QLineEdit {
+	font: 10pt &quot;함초롬돋움&quot;;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="BTN_DEV_INFO_DOOR">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>221</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>출입구</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_129">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>60</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+      </property>
+      <property name="text">
+       <string>문닫힘</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LE_DOOR_CLOSED">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>90</y>
+        <width>81</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_130">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+      </property>
+      <property name="text">
+       <string>문열림</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="LE_DOOR_OPENED">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>90</y>
+        <width>81</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="FRAME_KIOSK">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>760</y>
+       <width>141</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame { 
+   border: 1px solid #595959 
+} 
+QLabel {
+	font: 10pt &quot;함초롬돋움&quot;;
+}
+QPushButton {
+	border:1px solid #595959;
+	font: 15pt &quot;함초롬돋움&quot;; 
+}
+QLineEdit {
+	font: 10pt &quot;함초롬돋움&quot;;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="BTN_DEV_INFO_KIOSK">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>141</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>키오스크</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="LB_KIOSK_BLOCK_ORDER">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>10</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+      </property>
+      <property name="text">
+       <string>주문차단</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="FRAME_STOCK">
+     <property name="geometry">
+      <rect>
+       <x>840</x>
+       <y>430</y>
+       <width>181</width>
+       <height>191</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame { 
+   border: 1px solid #595959 
+} 
+QLabel {
+	font: 10pt &quot;함초롬돋움&quot;;
+}
+QPushButton {
+	border:1px solid #595959;
+	font: 15pt &quot;함초롬돋움&quot;; 
+}
+QLineEdit {
+	font: 10pt &quot;함초롬돋움&quot;;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="BTN_DEV_INFO_STOCK">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>181</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>재고</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label_35">
+     <property name="geometry">
+      <rect>
+       <x>1340</x>
+       <y>790</y>
+       <width>150</width>
+       <height>150</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="resource.qrc">:/build/image/qqyu.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QFrame" name="FRAME_ICE_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>500</y>
+       <width>301</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QFrame { 
+   border: 1px solid #595959 
+} 
+QLabel {
+	font: 10pt &quot;함초롬돋움&quot;;
+}
+QPushButton {
+	border:1px solid #595959;
+	font: 15pt &quot;함초롬돋움&quot;; 
+}
+QLineEdit {
+	font: 10pt &quot;함초롬돋움&quot;;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="lineWidth">
+      <number>2</number>
+     </property>
+     <widget class="QPushButton" name="BTN_DEV_INFO_ICE_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>301</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>함초롬돋움</family>
+        <pointsize>15</pointsize>
+        <weight>50</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>얼음 디스펜서2</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_13">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>70</y>
+        <width>211</width>
+        <height>42</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_13">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_3">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>만빙 : </string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="LB_ICE_2_FULL">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>만빙아님</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>에러 : </string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="LB_ICE_2_ERROR">
+         <property name="font">
+          <font>
+           <family>함초롬돋움</family>
+           <pointsize>10</pointsize>
+           <weight>50</weight>
+           <italic>false</italic>
+           <bold>false</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QLabel{ 
+   border: 0px solid
+} </string>
+         </property>
+         <property name="text">
+          <string>에러없음</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <zorder>label_35</zorder>
+    <zorder>FRAME_COFFEE</zorder>
+    <zorder>FRAME_ICE_1</zorder>
+    <zorder>FRAME_SODA</zorder>
+    <zorder>FRAME_SYRUP</zorder>
+    <zorder>FRAME_OUTLET</zorder>
+    <zorder>FRAME_MONITOR</zorder>
+    <zorder>FRAME_CUP</zorder>
+    <zorder>FRAME_ROBOT</zorder>
+    <zorder>FRAME_HOT</zorder>
+    <zorder>FRAME_ICECREAM</zorder>
+    <zorder>FRAME_BARCODE</zorder>
+    <zorder>FRAME_DOOR</zorder>
+    <zorder>FRAME_KIOSK</zorder>
+    <zorder>FRAME_STOCK</zorder>
+    <zorder>FRAME_ICE_2</zorder>
+   </widget>
+   <widget class="QWidget" name="layoutWidget_14">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>381</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_135">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>함초롬돋움</family>
+         <pointsize>18</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>초기화</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="LE_PLATFORM_INITIALIZING">
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLabel" name="label_147">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>함초롬돋움</family>
+         <pointsize>18</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+         <kerning>false</kerning>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>종료 신호</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLineEdit" name="LE_PLATFORM_WAITING_STOP">
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_146">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>함초롬돋움</family>
+         <pointsize>18</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>영업중</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="LE_PLATFORM_OPERATING">
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="label_138">
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>함초롬돋움</family>
+         <pointsize>18</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>문닫힘</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLineEdit" name="LE_PLATFORM_CLOSED">
+       <property name="font">
+        <font>
+         <pointsize>8</pointsize>
+        </font>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QFrame" name="GB_OP_CONTROL">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>10</y>
+      <width>941</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <widget class="QPushButton" name="BTN_DO_OPERATING">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>10</y>
+       <width>131</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>함초롬돋움</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border:1px solid #595959;
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>영업 시작</string>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BTN_STOP_OPERATING">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>10</y>
+       <width>131</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>함초롬돋움</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border:1px solid #595959;
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>영업 정지</string>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BTN_CANCEL_STOP">
+     <property name="geometry">
+      <rect>
+       <x>480</x>
+       <y>10</y>
+       <width>131</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>함초롬돋움</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border:1px solid #595959;
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>정지 취소</string>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BTN_SUPER_STOP">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>770</x>
+       <y>10</y>
+       <width>141</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>함초롬돋움</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border:1px solid #595959;
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>Super Stop</string>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BTN_FORCE_STOP">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>770</x>
+       <y>50</y>
+       <width>141</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>함초롬돋움</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border:1px solid #595959;
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>Force Stop</string>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="LE_PLATFORM_OPENED_WHEN_OPERATING">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>10</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>함초롬돋움</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+     </property>
+     <property name="text">
+      <string>동작중 문열림</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BTN_RESUME">
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>50</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>함초롬돋움</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border:1px solid #595959;
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>동작 재개</string>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="BTN_DO_INITIALIZING">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>10</y>
+       <width>131</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>함초롬돋움</family>
+       <pointsize>16</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+       <kerning>true</kerning>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+border:1px solid #595959;
+border-radius: 10px;</string>
+     </property>
+     <property name="text">
+      <string>초기화 시작</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

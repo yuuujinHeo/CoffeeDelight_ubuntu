@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DialogMonitor</class>
+ <widget class="QDialog" name="DialogMonitor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>402</width>
+    <height>931</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="GB_MONITOR">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>401</width>
+     <height>971</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>함초롬돋움</family>
+     <pointsize>20</pointsize>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QGroupBox  {
+    margin-top: 10px;
+	font: 20pt &quot;함초롬돋움&quot;;
+}
+
+QGroupBox::title  {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 10px 8000px 10px 8000px;
+    background-color: #FF7401;
+    color: rgb(255, 255, 255);
+}
+QLabel {
+	font: 10pt &quot;함초롬돋움&quot;;
+}
+QComboBox{
+	font: 10pt &quot;함초롬돋움&quot;;
+	background-color: #ffffff
+}
+QPushButton{
+	font: 10pt &quot;함초롬돋움&quot;;
+	background-color: #ffffff
+}
+QLineEdit{
+	font: 10pt &quot;함초롬돋움&quot;;
+	background-color: #ffffff
+}
+
+QGroupBox  {
+    margin-top: 10px;
+	font: 20pt &quot;함초롬돋움&quot;;
+}
+
+QGroupBox::title  {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 10px 8000px 10px 8000px;
+    background-color: #595959;
+    color: rgb(255, 255, 255);
+}
+QLabel {
+	font: 10pt &quot;함초롬돋움&quot;;
+}
+QComboBox{
+	font: 10pt &quot;함초롬돋움&quot;;
+	background-color: #ffffff
+}
+QPushButton{
+	font: 10pt &quot;함초롬돋움&quot;;
+	background-color: #ffffff
+}
+QLineEdit{
+	font: 10pt &quot;함초롬돋움&quot;;
+	background-color: #ffffff
+}
+
+
+
+
+
+</string>
+   </property>
+   <property name="title">
+    <string>현황판</string>
+   </property>
+   <widget class="QLineEdit" name="LE_MONITOR_CONNECTION">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>60</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>함초롬돋움</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_110">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>60</y>
+      <width>101</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>함초롬돋움</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>장치 연결 상태</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="Line" name="line_37">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>90</y>
+      <width>361</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="LW_WAITING">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>361</width>
+      <height>201</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="LW_COMPLETED">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>380</y>
+      <width>361</width>
+      <height>201</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_111">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>함초롬돋움</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>대기중 음료 리스트</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_112">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>350</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>함초롬돋움</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>제조완료 음료 리스트</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="CB_FORCE_MONITOR_STATUS">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>800</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>현황판 강제 적용</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BTN_FORCE_OPERATION">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>830</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>운영중</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BTN_FORCE_MAINTENANCE">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>830</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>정비중</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BTN_FORCE_PREPARATION">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>830</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>준비중</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BTN_FORCE_ERROR">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>830</y>
+      <width>81</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>에러발생</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="LE_FORCE_MSG">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>890</y>
+      <width>351</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>안녕하세요</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BTN_FORCE_CLEAR_WAITING_LIST">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>720</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>대기 음료 리스트 클리어</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BTN_FORCE_CLEAR_COMPLETED_LIST">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>750</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>완료 음료 리스트 클리어</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="CB_FORCE_CLEAR_DRINKS">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>690</y>
+      <width>161</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>주문 음료 클리어 허용</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="LE_MONITOR_STATUS_OPERATION">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>590</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>운영중</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="LE_MONITOR_STATUS_PREPARATION">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>590</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>준비중</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="LE_MONITOR_STATUS_MAINTENANCE">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>590</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>정비중</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="LE_MONITOR_STATUS_ERROR">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>590</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>에러발생</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="LE_MONITOR_STATUS_MESSAGE">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>640</y>
+      <width>361</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>함초롬돋움</family>
+      <pointsize>10</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>aa</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

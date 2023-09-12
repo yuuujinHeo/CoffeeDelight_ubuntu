@@ -1,0 +1,1142 @@
+[00:01:36]===============================================================
+[00:01:36]     START MEASURE :: H아메리카노
+[00:01:36]---------------------------------------------------------------
+[00:01:36]  START CUP    : 0.20 sec
+[00:01:40]  READY CUP    : 3.88 sec
+[00:01:43]  DISPENSE CUP    : 2.91 sec
+[00:01:45]  START HOT    : 2.20 sec
+[00:01:50]  READY HOT    : 4.41 sec
+[00:02:03]  DISPENSE HOT    : 13.41 sec
+[00:02:06]  START COFFEE    : 2.87 sec
+[00:02:09]  READY COFFEE    : 3.40 sec
+[00:02:41]  DISPENSE COFFEE    : 31.33 sec
+[00:02:45]  READY OUTLET    : 4.40 sec
+[00:02:46]  READY OUTLET    : 0.68 sec
+[00:02:51]  DISPENSE OUTLET    : 5.20 sec
+[00:02:52]     STOP MEASURE :: H아메리카노
+[00:02:52]     TAKT TIME :: 75.48 sec
+[00:02:52]===============================================================
+
+
+
+[00:02:52]===============================================================
+[00:02:52]     START MEASURE :: H레몬티
+[00:02:52]---------------------------------------------------------------
+[00:02:52]  START CUP    : 0.21 sec
+[00:02:56]  READY CUP    : 3.81 sec
+[00:02:59]  DISPENSE CUP    : 2.99 sec
+[00:03:01]  START BASE    : 2.08 sec
+[00:03:08]  READY BASE    : 7.40 sec
+[00:03:10]  READY BASE    : 1.31 sec
+[00:03:11]  READY BASE    : 1.28 sec
+[00:03:12]  DISPENSE BASE    : 1.32 sec
+[00:03:18]  START SYRUP    : 5.61 sec
+[00:03:23]  READY SYRUP    : 4.61 sec
+[00:03:24]  DISPENSE SYRUP    : 1.38 sec
+[00:03:27]  START HOT    : 2.90 sec
+[00:03:31]  READY HOT    : 4.51 sec
+[00:03:45]  DISPENSE HOT    : 14.02 sec
+[00:03:50]  READY OUTLET    : 4.99 sec
+[00:03:51]  READY OUTLET    : 0.80 sec
+[00:03:55]  DISPENSE OUTLET    : 4.00 sec
+[00:03:56]     STOP MEASURE :: H레몬티
+[00:03:56]     TAKT TIME :: 64.42 sec
+[00:03:56]===============================================================
+
+
+
+[07:57:35]===============================================================
+[07:57:35]     START MEASURE :: H아메리카노
+[07:57:35]---------------------------------------------------------------
+[07:57:35]  START CUP    : 0.19 sec
+[07:57:39]  READY CUP    : 3.90 sec
+[07:57:42]  DISPENSE CUP    : 2.72 sec
+[07:57:44]  START HOT    : 2.19 sec
+[07:57:48]  READY HOT    : 4.41 sec
+[07:58:01]  DISPENSE HOT    : 12.39 sec
+[07:58:04]  START COFFEE    : 2.88 sec
+[07:58:07]  READY COFFEE    : 3.40 sec
+[07:58:39]  DISPENSE COFFEE    : 31.60 sec
+[07:58:43]  READY OUTLET    : 4.40 sec
+[07:58:45]  READY OUTLET    : 1.71 sec
+[07:58:50]  DISPENSE OUTLET    : 5.21 sec
+[07:58:51]     STOP MEASURE :: H아메리카노
+[07:58:51]     TAKT TIME :: 75.68 sec
+[07:58:51]===============================================================
+
+
+
+[09:25:09]===============================================================
+[09:25:09]     START MEASURE :: I아메리카노(헤이즐넛)
+[09:25:09]---------------------------------------------------------------
+[09:25:09]  START CUP    : 0.20 sec
+[09:25:13]  READY CUP    : 3.91 sec
+[09:25:16]  DISPENSE CUP    : 2.81 sec
+[09:25:18]  START SYRUP    : 2.29 sec
+[09:25:25]  READY SYRUP    : 6.19 sec
+[09:25:30]  DISPENSE SYRUP    : 5.40 sec
+[09:25:33]  START ICE    : 2.91 sec
+[09:25:36]  READY ICE    : 3.01 sec
+[09:25:42]  DISPENSE ICE    : 6.08 sec
+[09:25:43]  START COFFEE    : 1.40 sec
+[09:25:48]  READY COFFEE    : 4.60 sec
+[09:26:19]  DISPENSE COFFEE    : 31.31 sec
+[09:26:24]  READY OUTLET    : 4.23 sec
+[09:26:25]  READY OUTLET    : 0.97 sec
+[09:26:29]  DISPENSE OUTLET    : 4.02 sec
+[09:26:30]     STOP MEASURE :: I아메리카노(헤이즐넛)
+[09:26:30]     TAKT TIME :: 80.51 sec
+[09:26:30]===============================================================
+
+
+
+[09:37:19]===============================================================
+[09:37:19]     START MEASURE :: I아메리카노(헤이즐넛)
+[09:37:19]---------------------------------------------------------------
+[09:37:20]  START CUP    : 0.20 sec
+[09:37:23]  READY CUP    : 3.88 sec
+[09:37:26]  DISPENSE CUP    : 2.80 sec
+[09:37:29]  START SYRUP    : 2.31 sec
+[09:37:35]  READY SYRUP    : 6.20 sec
+[09:37:37]  DISPENSE SYRUP    : 2.49 sec
+[09:37:40]  START ICE    : 2.92 sec
+[09:37:44]  READY ICE    : 4.27 sec
+[09:37:51]  DISPENSE ICE    : 6.11 sec
+[09:37:53]  START COFFEE    : 2.20 sec
+[09:37:57]  READY COFFEE    : 4.21 sec
+[09:38:29]  DISPENSE COFFEE    : 31.68 sec
+[09:38:33]  READY OUTLET    : 4.40 sec
+[09:38:35]  READY OUTLET    : 1.73 sec
+[09:38:40]  DISPENSE OUTLET    : 5.18 sec
+[09:38:41]     STOP MEASURE :: I아메리카노(헤이즐넛)
+[09:38:41]     TAKT TIME :: 81.28 sec
+[09:38:41]===============================================================
+
+
+
+[09:38:41]===============================================================
+[09:38:41]     START MEASURE :: I카페카라멜라떼
+[09:38:41]---------------------------------------------------------------
+[09:38:41]  START CUP    : 0.21 sec
+[09:38:45]  READY CUP    : 3.89 sec
+[09:38:48]  DISPENSE CUP    : 2.90 sec
+[09:38:50]  START SYRUP    : 2.30 sec
+[09:38:56]  READY SYRUP    : 6.20 sec
+[09:39:00]  DISPENSE SYRUP    : 3.71 sec
+[09:39:03]  START ICE    : 2.89 sec
+[09:39:06]  READY ICE    : 3.00 sec
+[09:39:11]  DISPENSE ICE    : 4.60 sec
+[09:39:12]  START COFFEE    : 1.40 sec
+[09:39:17]  READY COFFEE    : 4.60 sec
+[09:39:52]  DISPENSE COFFEE    : 34.93 sec
+[09:39:56]  READY OUTLET    : 4.20 sec
+[09:39:57]  READY OUTLET    : 1.00 sec
+[09:40:01]  DISPENSE OUTLET    : 3.98 sec
+[09:40:02]     STOP MEASURE :: I카페카라멜라떼
+[09:40:02]     TAKT TIME :: 81.01 sec
+[09:40:02]===============================================================
+
+
+
+[09:40:06]===============================================================
+[09:40:06]     START MEASURE :: H아메리카노
+[09:40:06]---------------------------------------------------------------
+[09:40:06]  START CUP    : 0.19 sec
+[09:40:10]  READY CUP    : 3.80 sec
+[09:40:13]  DISPENSE CUP    : 3.08 sec
+[09:40:15]  START HOT    : 2.10 sec
+[09:40:19]  READY HOT    : 4.42 sec
+[09:40:32]  DISPENSE HOT    : 12.60 sec
+[09:40:35]  START COFFEE    : 2.81 sec
+[09:40:38]  READY COFFEE    : 3.38 sec
+[09:41:11]  DISPENSE COFFEE    : 32.88 sec
+[09:41:15]  READY OUTLET    : 4.40 sec
+[09:41:16]  READY OUTLET    : 0.80 sec
+[09:41:21]  DISPENSE OUTLET    : 5.11 sec
+[09:41:22]     STOP MEASURE :: H아메리카노
+[09:41:22]     TAKT TIME :: 76.27 sec
+[09:41:22]===============================================================
+
+
+
+[09:41:22]===============================================================
+[09:41:22]     START MEASURE :: H아메리카노
+[09:41:22]---------------------------------------------------------------
+[09:41:22]  START CUP    : 0.21 sec
+[09:41:26]  READY CUP    : 3.87 sec
+[09:41:29]  DISPENSE CUP    : 2.91 sec
+[09:41:31]  START HOT    : 2.22 sec
+[09:41:36]  READY HOT    : 4.39 sec
+[09:41:49]  DISPENSE HOT    : 12.99 sec
+[09:41:52]  START COFFEE    : 2.80 sec
+[09:41:55]  READY COFFEE    : 3.41 sec
+[09:42:27]  DISPENSE COFFEE    : 32.28 sec
+[09:42:31]  READY OUTLET    : 4.20 sec
+[09:42:32]  READY OUTLET    : 1.00 sec
+[09:42:36]  DISPENSE OUTLET    : 4.01 sec
+[09:42:38]     STOP MEASURE :: H아메리카노
+[09:42:38]     TAKT TIME :: 75.48 sec
+[09:42:38]===============================================================
+
+
+
+[09:42:38]===============================================================
+[09:42:38]     START MEASURE :: H아메리카노
+[09:42:38]---------------------------------------------------------------
+[09:42:38]  START CUP    : 0.20 sec
+[09:42:42]  READY CUP    : 3.78 sec
+[09:42:45]  DISPENSE CUP    : 3.09 sec
+[09:42:47]  START HOT    : 2.13 sec
+[09:42:52]  READY HOT    : 4.40 sec
+[09:43:05]  DISPENSE HOT    : 13.00 sec
+[09:43:07]  START COFFEE    : 2.87 sec
+[09:43:11]  READY COFFEE    : 3.40 sec
+[09:43:44]  DISPENSE COFFEE    : 33.00 sec
+[09:43:48]  READY OUTLET    : 4.39 sec
+[09:43:50]  READY OUTLET    : 1.72 sec
+[09:43:55]  DISPENSE OUTLET    : 5.21 sec
+[09:43:56]     STOP MEASURE :: H아메리카노
+[09:43:56]     TAKT TIME :: 77.88 sec
+[09:43:56]===============================================================
+
+
+
+[09:43:56]===============================================================
+[09:43:56]     START MEASURE :: I복숭아티
+[09:43:56]---------------------------------------------------------------
+[09:43:56]  START CUP    : 0.19 sec
+[09:44:00]  READY CUP    : 3.89 sec
+[09:44:03]  DISPENSE CUP    : 2.93 sec
+[09:44:05]  START ICE    : 2.27 sec
+[09:44:09]  READY ICE    : 3.11 sec
+[09:44:14]  DISPENSE ICE    : 5.09 sec
+[09:44:16]  START SYRUP    : 2.20 sec
+[09:44:23]  READY SYRUP    : 6.79 sec
+[09:44:38]  DISPENSE SYRUP    : 15.32 sec
+[09:44:38]  START SYRUP    : 0.19 sec
+[09:44:39]  READY SYRUP    : 0.49 sec
+[09:44:40]  DISPENSE SYRUP    : 0.99 sec
+[09:44:45]  READY OUTLET    : 5.21 sec
+[09:44:45]  READY OUTLET    : 0.53 sec
+[09:44:49]  DISPENSE OUTLET    : 4.07 sec
+[09:44:51]     STOP MEASURE :: I복숭아티
+[09:44:51]     TAKT TIME :: 54.48 sec
+[09:44:51]===============================================================
+
+
+
+[09:44:51]===============================================================
+[09:44:51]     START MEASURE :: H아메리카노
+[09:44:51]---------------------------------------------------------------
+[09:44:51]  START CUP    : 0.20 sec
+[09:44:55]  READY CUP    : 3.89 sec
+[09:44:58]  DISPENSE CUP    : 2.73 sec
+[09:45:00]  START HOT    : 2.18 sec
+[09:45:04]  READY HOT    : 4.41 sec
+[09:45:18]  DISPENSE HOT    : 13.40 sec
+[09:45:21]  START COFFEE    : 2.79 sec
+[09:45:24]  READY COFFEE    : 3.40 sec
+[09:45:56]  DISPENSE COFFEE    : 32.41 sec
+[09:46:01]  READY OUTLET    : 4.40 sec
+[09:46:02]  READY OUTLET    : 0.81 sec
+[09:46:07]  DISPENSE OUTLET    : 5.18 sec
+[09:46:07]     STOP MEASURE :: H아메리카노
+[09:46:07]     TAKT TIME :: 76.49 sec
+[09:46:07]===============================================================
+
+
+
+[10:06:01]===============================================================
+[10:06:01]     START MEASURE :: H아메리카노
+[10:06:01]---------------------------------------------------------------
+[10:06:02]  START CUP    : 0.20 sec
+[10:06:05]  READY CUP    : 3.80 sec
+[10:06:08]  DISPENSE CUP    : 3.00 sec
+[10:06:11]  START HOT    : 2.11 sec
+[10:06:15]  READY HOT    : 4.41 sec
+[10:06:28]  DISPENSE HOT    : 13.39 sec
+[10:06:31]  START COFFEE    : 2.80 sec
+[10:06:35]  READY COFFEE    : 3.40 sec
+[10:07:06]  DISPENSE COFFEE    : 31.41 sec
+[10:07:10]  READY OUTLET    : 4.21 sec
+[10:07:11]  READY OUTLET    : 1.00 sec
+[10:07:15]  DISPENSE OUTLET    : 4.07 sec
+[10:07:16]     STOP MEASURE :: H아메리카노
+[10:07:16]     TAKT TIME :: 74.91 sec
+[10:07:16]===============================================================
+
+
+
+[10:45:00]===============================================================
+[10:45:00]     START MEASURE :: H아메리카노
+[10:45:00]---------------------------------------------------------------
+[10:45:01]  START CUP    : 0.22 sec
+[10:45:04]  READY CUP    : 3.87 sec
+[10:45:07]  DISPENSE CUP    : 2.72 sec
+[10:45:09]  START HOT    : 2.19 sec
+[10:45:14]  READY HOT    : 4.41 sec
+[10:45:27]  DISPENSE HOT    : 12.79 sec
+[10:45:29]  START COFFEE    : 2.80 sec
+[10:45:33]  READY COFFEE    : 3.42 sec
+[10:46:03]  DISPENSE COFFEE    : 30.67 sec
+[10:46:08]  READY OUTLET    : 4.40 sec
+[10:46:10]  READY OUTLET    : 1.71 sec
+[10:46:15]  DISPENSE OUTLET    : 5.20 sec
+[10:46:15]     STOP MEASURE :: H아메리카노
+[10:46:15]     TAKT TIME :: 75.09 sec
+[10:46:15]===============================================================
+
+
+
+[10:46:16]===============================================================
+[10:46:16]     START MEASURE :: H아메리카노
+[10:46:16]---------------------------------------------------------------
+[10:46:16]  START CUP    : 0.21 sec
+[10:46:20]  READY CUP    : 3.79 sec
+[10:46:23]  DISPENSE CUP    : 3.08 sec
+[10:46:25]  START HOT    : 2.11 sec
+[10:46:29]  READY HOT    : 4.40 sec
+[10:46:43]  DISPENSE HOT    : 13.40 sec
+[10:46:46]  START COFFEE    : 2.81 sec
+[10:46:49]  READY COFFEE    : 3.40 sec
+[10:47:21]  DISPENSE COFFEE    : 32.48 sec
+[10:47:26]  READY OUTLET    : 4.11 sec
+[10:47:27]  READY OUTLET    : 1.01 sec
+[10:47:31]  DISPENSE OUTLET    : 4.00 sec
+[10:47:32]     STOP MEASURE :: H아메리카노
+[10:47:32]     TAKT TIME :: 76.00 sec
+[10:47:32]===============================================================
+
+
+
+[10:47:32]===============================================================
+[10:47:32]     START MEASURE :: H아메리카노
+[10:47:32]---------------------------------------------------------------
+[10:47:32]  START CUP    : 0.20 sec
+[10:47:36]  READY CUP    : 3.91 sec
+[10:47:39]  DISPENSE CUP    : 2.82 sec
+[10:47:41]  START HOT    : 2.19 sec
+[10:47:46]  READY HOT    : 4.40 sec
+[10:47:59]  DISPENSE HOT    : 13.28 sec
+[10:48:02]  START COFFEE    : 2.80 sec
+[10:48:05]  READY COFFEE    : 3.40 sec
+[10:48:36]  DISPENSE COFFEE    : 31.12 sec
+[10:48:41]  READY OUTLET    : 4.38 sec
+[10:48:41]  READY OUTLET    : 0.82 sec
+[10:48:47]  DISPENSE OUTLET    : 5.20 sec
+[10:48:47]     STOP MEASURE :: H아메리카노
+[10:48:47]     TAKT TIME :: 75.21 sec
+[10:48:47]===============================================================
+
+
+
+[10:49:23]===============================================================
+[10:49:23]     START MEASURE :: I아메리카노
+[10:49:23]---------------------------------------------------------------
+[10:49:23]  START CUP    : 0.18 sec
+[10:49:27]  READY CUP    : 3.89 sec
+[10:49:30]  DISPENSE CUP    : 2.92 sec
+[10:49:32]  START ICE    : 2.28 sec
+[10:49:36]  READY ICE    : 4.00 sec
+[10:49:42]  DISPENSE ICE    : 6.11 sec
+[10:49:43]  START COFFEE    : 1.42 sec
+[10:49:48]  READY COFFEE    : 4.58 sec
+[10:50:19]  DISPENSE COFFEE    : 31.02 sec
+[10:50:23]  READY OUTLET    : 4.19 sec
+[10:50:24]  READY OUTLET    : 0.88 sec
+[10:50:28]  DISPENSE OUTLET    : 4.00 sec
+[10:50:29]     STOP MEASURE :: I아메리카노
+[10:50:29]     TAKT TIME :: 66.60 sec
+[10:50:29]===============================================================
+
+
+
+[10:58:40]===============================================================
+[10:58:40]     START MEASURE :: I아메리카노(헤이즐넛)
+[10:58:40]---------------------------------------------------------------
+[10:58:40]  START CUP    : 0.21 sec
+[10:58:44]  READY CUP    : 3.88 sec
+[10:58:47]  DISPENSE CUP    : 2.80 sec
+[10:58:49]  START SYRUP    : 2.31 sec
+[10:58:55]  READY SYRUP    : 6.22 sec
+[10:58:58]  DISPENSE SYRUP    : 2.59 sec
+[10:59:01]  START ICE    : 2.89 sec
+[10:59:05]  READY ICE    : 4.31 sec
+[10:59:11]  DISPENSE ICE    : 6.09 sec
+[10:59:13]  START COFFEE    : 2.20 sec
+[10:59:18]  READY COFFEE    : 4.20 sec
+[10:59:49]  DISPENSE COFFEE    : 31.00 sec
+[10:59:53]  READY OUTLET    : 4.40 sec
+[10:59:53]  READY OUTLET    : 0.00 sec
+[10:59:58]  DISPENSE OUTLET    : 5.20 sec
+[10:59:59]     STOP MEASURE :: I아메리카노(헤이즐넛)
+[10:59:59]     TAKT TIME :: 78.89 sec
+[10:59:59]===============================================================
+
+
+
+[11:13:16]===============================================================
+[11:13:16]     START MEASURE :: I아메리카노(헤이즐넛)
+[11:13:16]---------------------------------------------------------------
+[11:13:17]  START CUP    : 0.20 sec
+[11:13:20]  READY CUP    : 3.88 sec
+[11:13:23]  DISPENSE CUP    : 2.92 sec
+[11:13:26]  START SYRUP    : 2.27 sec
+[11:13:32]  READY SYRUP    : 6.20 sec
+[11:13:34]  DISPENSE SYRUP    : 2.40 sec
+[11:13:37]  START ICE    : 2.92 sec
+[11:13:40]  READY ICE    : 3.00 sec
+[11:13:46]  DISPENSE ICE    : 6.08 sec
+[11:13:48]  START COFFEE    : 1.40 sec
+[11:13:52]  READY COFFEE    : 4.60 sec
+[11:14:24]  DISPENSE COFFEE    : 31.40 sec
+[11:14:28]  READY OUTLET    : 4.20 sec
+[11:14:29]  READY OUTLET    : 1.00 sec
+[11:14:33]  DISPENSE OUTLET    : 4.00 sec
+[11:14:34]     STOP MEASURE :: I아메리카노(헤이즐넛)
+[11:14:34]     TAKT TIME :: 77.68 sec
+[11:14:34]===============================================================
+
+
+
+[11:42:19]===============================================================
+[11:42:19]     START MEASURE :: I아메리카노
+[11:42:19]---------------------------------------------------------------
+[11:42:19]  START CUP    : 0.19 sec
+[11:42:23]  READY CUP    : 3.91 sec
+[11:42:26]  DISPENSE CUP    : 2.69 sec
+[11:42:28]  START ICE    : 2.31 sec
+[11:42:31]  READY ICE    : 3.10 sec
+[11:42:37]  DISPENSE ICE    : 6.13 sec
+[11:42:39]  START COFFEE    : 2.19 sec
+[11:42:44]  READY COFFEE    : 4.20 sec
+[11:43:15]  DISPENSE COFFEE    : 31.19 sec
+[11:43:19]  READY OUTLET    : 4.39 sec
+[11:43:21]  READY OUTLET    : 1.69 sec
+[11:43:26]  DISPENSE OUTLET    : 5.11 sec
+[11:43:27]     STOP MEASURE :: I아메리카노
+[11:43:27]     TAKT TIME :: 67.79 sec
+[11:43:27]===============================================================
+
+
+
+[12:29:37]===============================================================
+[12:29:37]     START MEASURE :: H아메리카노
+[12:29:37]---------------------------------------------------------------
+[12:29:37]  START CUP    : 0.20 sec
+[12:29:41]  READY CUP    : 3.80 sec
+[12:29:44]  DISPENSE CUP    : 3.08 sec
+[12:29:46]  START HOT    : 2.12 sec
+[12:29:50]  READY HOT    : 4.41 sec
+[12:30:04]  DISPENSE HOT    : 13.27 sec
+[12:30:06]  START COFFEE    : 2.80 sec
+[12:30:10]  READY COFFEE    : 3.40 sec
+[12:30:42]  DISPENSE COFFEE    : 32.00 sec
+[12:30:46]  READY OUTLET    : 4.20 sec
+[12:30:47]  READY OUTLET    : 1.00 sec
+[12:30:51]  DISPENSE OUTLET    : 4.00 sec
+[12:30:52]     STOP MEASURE :: H아메리카노
+[12:30:52]     TAKT TIME :: 75.49 sec
+[12:30:52]===============================================================
+
+
+
+[12:30:53]===============================================================
+[12:30:53]     START MEASURE :: I아메리카노
+[12:30:53]---------------------------------------------------------------
+[12:30:53]  START CUP    : 0.19 sec
+[12:30:57]  READY CUP    : 3.88 sec
+[12:30:59]  DISPENSE CUP    : 2.72 sec
+[12:31:02]  START ICE    : 2.28 sec
+[12:31:06]  READY ICE    : 4.01 sec
+[12:31:12]  DISPENSE ICE    : 6.10 sec
+[12:31:13]  START COFFEE    : 1.41 sec
+[12:31:18]  READY COFFEE    : 4.59 sec
+[12:31:50]  DISPENSE COFFEE    : 31.89 sec
+[12:31:54]  READY OUTLET    : 4.40 sec
+[12:31:55]  READY OUTLET    : 0.80 sec
+[12:32:00]  DISPENSE OUTLET    : 5.11 sec
+[12:32:01]     STOP MEASURE :: I아메리카노
+[12:32:01]     TAKT TIME :: 68.06 sec
+[12:32:01]===============================================================
+
+
+
+[12:32:01]===============================================================
+[12:32:01]     START MEASURE :: I카페바닐라라떼
+[12:32:01]---------------------------------------------------------------
+[12:32:01]  START CUP    : 0.21 sec
+[12:32:05]  READY CUP    : 3.89 sec
+[12:32:08]  DISPENSE CUP    : 2.90 sec
+[12:32:10]  START SYRUP    : 2.29 sec
+[12:32:16]  READY SYRUP    : 6.20 sec
+[12:32:19]  DISPENSE SYRUP    : 2.80 sec
+[12:32:22]  START ICE    : 2.92 sec
+[12:32:26]  READY ICE    : 4.27 sec
+[12:32:31]  DISPENSE ICE    : 4.60 sec
+[12:32:33]  START COFFEE    : 2.20 sec
+[12:32:37]  READY COFFEE    : 4.20 sec
+[12:33:13]  DISPENSE COFFEE    : 35.20 sec
+[12:33:17]  READY OUTLET    : 4.20 sec
+[12:33:18]  READY OUTLET    : 1.00 sec
+[12:33:22]  DISPENSE OUTLET    : 4.00 sec
+[12:33:23]     STOP MEASURE :: I카페바닐라라떼
+[12:33:23]     TAKT TIME :: 82.09 sec
+[12:33:23]===============================================================
+
+
+
+[12:33:23]===============================================================
+[12:33:23]     START MEASURE :: I아메리카노
+[12:33:23]---------------------------------------------------------------
+[12:33:24]  START CUP    : 0.20 sec
+[12:33:27]  READY CUP    : 3.89 sec
+[12:33:30]  DISPENSE CUP    : 2.73 sec
+[12:33:32]  START ICE    : 2.27 sec
+[12:33:36]  READY ICE    : 4.00 sec
+[12:33:43]  DISPENSE ICE    : 6.13 sec
+[12:33:44]  START COFFEE    : 1.39 sec
+[12:33:49]  READY COFFEE    : 4.61 sec
+[12:34:21]  DISPENSE COFFEE    : 32.27 sec
+[12:34:25]  READY OUTLET    : 4.40 sec
+[12:34:27]  READY OUTLET    : 1.60 sec
+[12:34:32]  DISPENSE OUTLET    : 5.13 sec
+[12:34:33]     STOP MEASURE :: I아메리카노
+[12:34:33]     TAKT TIME :: 69.29 sec
+[12:34:33]===============================================================
+
+
+
+[12:34:33]===============================================================
+[12:34:33]     START MEASURE :: I클라우드딸기
+[12:34:33]---------------------------------------------------------------
+[12:34:33]  START CUP    : 0.21 sec
+[12:34:37]  READY CUP    : 3.87 sec
+[12:34:40]  DISPENSE CUP    : 2.80 sec
+[12:34:42]  START ICE    : 2.33 sec
+[12:34:45]  READY ICE    : 3.07 sec
+[12:34:50]  DISPENSE ICE    : 4.33 sec
+[12:34:52]  START BASE    : 2.19 sec
+[12:34:59]  READY BASE    : 7.49 sec
+[12:35:01]  READY BASE    : 1.30 sec
+[12:35:02]  READY BASE    : 1.29 sec
+[12:35:03]  DISPENSE BASE    : 1.31 sec
+[12:35:09]  START COFFEE    : 5.49 sec
+[12:35:13]  READY COFFEE    : 4.00 sec
+[12:35:36]  DISPENSE COFFEE    : 23.80 sec
+[12:35:41]  READY OUTLET    : 4.20 sec
+[12:35:42]  READY OUTLET    : 0.91 sec
+[12:35:46]  DISPENSE OUTLET    : 4.01 sec
+[12:35:47]     STOP MEASURE :: I클라우드딸기
+[12:35:47]     TAKT TIME :: 73.79 sec
+[12:35:47]===============================================================
+
+
+
+[12:43:33]===============================================================
+[12:43:33]     START MEASURE :: I아메리카노
+[12:43:33]---------------------------------------------------------------
+[12:43:33]  START CUP    : 0.18 sec
+[12:43:37]  READY CUP    : 3.89 sec
+[12:43:39]  DISPENSE CUP    : 2.72 sec
+[12:43:42]  START ICE    : 2.28 sec
+[12:43:46]  READY ICE    : 4.00 sec
+[12:43:52]  DISPENSE ICE    : 6.13 sec
+[12:43:53]  START COFFEE    : 1.39 sec
+[12:43:58]  READY COFFEE    : 4.61 sec
+[12:44:29]  DISPENSE COFFEE    : 31.47 sec
+[12:44:34]  READY OUTLET    : 4.40 sec
+[12:44:34]  READY OUTLET    : 0.00 sec
+[12:44:39]  DISPENSE OUTLET    : 5.13 sec
+[12:44:39]     STOP MEASURE :: I아메리카노
+[12:44:39]     TAKT TIME :: 66.87 sec
+[12:44:39]===============================================================
+
+
+
+[12:56:35]===============================================================
+[12:56:35]     START MEASURE :: I아메리카노
+[12:56:35]---------------------------------------------------------------
+[12:56:35]  START CUP    : 0.20 sec
+[12:56:39]  READY CUP    : 3.91 sec
+[12:56:42]  DISPENSE CUP    : 2.69 sec
+[12:56:44]  START ICE    : 2.32 sec
+[12:56:47]  READY ICE    : 3.07 sec
+[12:56:53]  DISPENSE ICE    : 6.11 sec
+[12:56:56]  START COFFEE    : 2.22 sec
+[12:57:00]  READY COFFEE    : 4.19 sec
+[12:57:31]  DISPENSE COFFEE    : 31.07 sec
+[12:57:35]  READY OUTLET    : 4.12 sec
+[12:57:36]  READY OUTLET    : 1.08 sec
+[12:57:40]  DISPENSE OUTLET    : 4.00 sec
+[12:57:41]     STOP MEASURE :: I아메리카노
+[12:57:41]     TAKT TIME :: 66.13 sec
+[12:57:41]===============================================================
+
+
+
+[12:57:41]===============================================================
+[12:57:41]     START MEASURE :: I클라우드초코
+[12:57:41]---------------------------------------------------------------
+[12:57:42]  START CUP    : 0.20 sec
+[12:57:46]  READY CUP    : 3.92 sec
+[12:57:48]  DISPENSE CUP    : 2.80 sec
+[12:57:51]  START ICE    : 2.28 sec
+[12:57:55]  READY ICE    : 3.91 sec
+[12:57:59]  DISPENSE ICE    : 4.29 sec
+[12:58:00]  START BASE    : 1.41 sec
+[12:58:07]  READY BASE    : 7.19 sec
+[12:58:09]  READY BASE    : 1.31 sec
+[12:58:10]  READY BASE    : 1.28 sec
+[12:58:11]  DISPENSE BASE    : 1.32 sec
+[12:58:17]  START COFFEE    : 5.48 sec
+[12:58:21]  READY COFFEE    : 4.00 sec
+[12:58:45]  DISPENSE COFFEE    : 24.60 sec
+[12:58:50]  READY OUTLET    : 4.40 sec
+[12:58:52]  READY OUTLET    : 1.73 sec
+[12:58:57]  DISPENSE OUTLET    : 5.18 sec
+[12:58:57]     STOP MEASURE :: I클라우드초코
+[12:58:57]     TAKT TIME :: 76.00 sec
+[12:58:57]===============================================================
+
+
+
+[13:03:46]===============================================================
+[13:03:46]     START MEASURE :: I카페바닐라라떼
+[13:03:46]---------------------------------------------------------------
+[13:03:46]  START CUP    : 0.20 sec
+[13:03:50]  READY CUP    : 3.92 sec
+[13:03:53]  DISPENSE CUP    : 2.68 sec
+[13:03:55]  START SYRUP    : 2.31 sec
+[13:04:02]  READY SYRUP    : 6.22 sec
+[13:04:04]  DISPENSE SYRUP    : 2.78 sec
+[13:04:07]  START ICE    : 2.89 sec
+[13:04:12]  READY ICE    : 4.33 sec
+[13:04:16]  DISPENSE ICE    : 4.58 sec
+[13:04:18]  START COFFEE    : 2.19 sec
+[13:04:23]  READY COFFEE    : 4.21 sec
+[13:04:57]  DISPENSE COFFEE    : 34.69 sec
+[13:05:01]  READY OUTLET    : 4.11 sec
+[13:05:02]  READY OUTLET    : 1.09 sec
+[13:05:06]  DISPENSE OUTLET    : 4.00 sec
+[13:05:08]     STOP MEASURE :: I카페바닐라라떼
+[13:05:08]     TAKT TIME :: 81.40 sec
+[13:05:08]===============================================================
+
+
+
+[15:11:29]===============================================================
+[15:11:29]     START MEASURE :: I아메리카노
+[15:11:29]---------------------------------------------------------------
+[15:11:29]  START CUP    : 0.20 sec
+[15:11:33]  READY CUP    : 3.91 sec
+[15:11:36]  DISPENSE CUP    : 2.80 sec
+[15:11:38]  START ICE    : 2.29 sec
+[15:11:42]  READY ICE    : 4.01 sec
+[15:11:48]  DISPENSE ICE    : 6.11 sec
+[15:11:50]  START COFFEE    : 1.39 sec
+[15:11:54]  READY COFFEE    : 4.61 sec
+[15:12:26]  DISPENSE COFFEE    : 31.68 sec
+[15:12:30]  READY OUTLET    : 4.40 sec
+[15:12:32]  READY OUTLET    : 1.80 sec
+[15:12:37]  DISPENSE OUTLET    : 5.20 sec
+[15:12:38]     STOP MEASURE :: I아메리카노
+[15:12:38]     TAKT TIME :: 69.00 sec
+[15:12:38]===============================================================
+
+
+
+[15:12:38]===============================================================
+[15:12:38]     START MEASURE :: I카페블루라떼
+[15:12:38]---------------------------------------------------------------
+[15:12:38]  START CUP    : 0.21 sec
+[15:12:42]  READY CUP    : 3.88 sec
+[15:12:45]  DISPENSE CUP    : 2.80 sec
+[15:12:47]  START SYRUP    : 2.33 sec
+[15:12:54]  READY SYRUP    : 6.20 sec
+[15:12:56]  DISPENSE SYRUP    : 2.67 sec
+[15:12:59]  START ICE    : 2.92 sec
+[15:13:03]  READY ICE    : 4.29 sec
+[15:13:09]  DISPENSE ICE    : 5.11 sec
+[15:13:11]  START COFFEE    : 2.23 sec
+[15:13:15]  READY COFFEE    : 4.20 sec
+[15:13:51]  DISPENSE COFFEE    : 35.59 sec
+[15:13:55]  READY OUTLET    : 4.20 sec
+[15:13:56]  READY OUTLET    : 0.88 sec
+[15:14:00]  DISPENSE OUTLET    : 4.00 sec
+[15:14:01]     STOP MEASURE :: I카페블루라떼
+[15:14:01]     TAKT TIME :: 82.69 sec
+[15:14:01]===============================================================
+
+
+
+[15:37:25]===============================================================
+[15:37:25]     START MEASURE :: H아메리카노(헤이즐넛)
+[15:37:25]---------------------------------------------------------------
+[15:37:25]  START CUP    : 0.20 sec
+[15:37:29]  READY CUP    : 3.90 sec
+[15:37:32]  DISPENSE CUP    : 2.82 sec
+[15:37:34]  START SYRUP    : 2.19 sec
+[15:37:40]  READY SYRUP    : 6.21 sec
+[15:37:43]  DISPENSE SYRUP    : 3.19 sec
+[15:37:46]  START HOT    : 2.89 sec
+[15:37:51]  READY HOT    : 4.51 sec
+[15:38:02]  DISPENSE HOT    : 11.29 sec
+[15:38:05]  START COFFEE    : 2.80 sec
+[15:38:08]  READY COFFEE    : 3.40 sec
+[15:38:39]  DISPENSE COFFEE    : 31.40 sec
+[15:38:44]  READY OUTLET    : 4.40 sec
+[15:38:46]  READY OUTLET    : 1.73 sec
+[15:38:51]  DISPENSE OUTLET    : 5.18 sec
+[15:38:51]     STOP MEASURE :: H아메리카노(헤이즐넛)
+[15:38:51]     TAKT TIME :: 86.72 sec
+[15:38:51]===============================================================
+
+
+
+[15:38:52]===============================================================
+[15:38:52]     START MEASURE :: H아메리카노(헤이즐넛)
+[15:38:52]---------------------------------------------------------------
+[15:38:52]  START CUP    : 0.20 sec
+[15:38:56]  READY CUP    : 3.80 sec
+[15:38:59]  DISPENSE CUP    : 2.93 sec
+[15:39:01]  START SYRUP    : 2.07 sec
+[15:39:07]  READY SYRUP    : 6.20 sec
+[15:39:10]  DISPENSE SYRUP    : 2.91 sec
+[15:39:13]  START HOT    : 2.89 sec
+[15:39:17]  READY HOT    : 4.51 sec
+[15:39:29]  DISPENSE HOT    : 11.89 sec
+[15:39:32]  START COFFEE    : 2.79 sec
+[15:39:35]  READY COFFEE    : 3.41 sec
+[15:40:08]  DISPENSE COFFEE    : 32.70 sec
+[15:40:12]  READY OUTLET    : 4.22 sec
+[15:40:13]  READY OUTLET    : 0.87 sec
+[15:40:17]  DISPENSE OUTLET    : 4.00 sec
+[15:40:18]     STOP MEASURE :: H아메리카노(헤이즐넛)
+[15:40:18]     TAKT TIME :: 86.60 sec
+[15:40:18]===============================================================
+
+
+
+[15:40:19]===============================================================
+[15:40:19]     START MEASURE :: H아메리카노(헤이즐넛)
+[15:40:19]---------------------------------------------------------------
+[15:40:19]  START CUP    : 0.20 sec
+[15:40:23]  READY CUP    : 3.99 sec
+[15:40:26]  DISPENSE CUP    : 2.81 sec
+[15:40:28]  START SYRUP    : 2.20 sec
+[15:40:34]  READY SYRUP    : 6.19 sec
+[15:40:37]  DISPENSE SYRUP    : 2.89 sec
+[15:40:40]  START HOT    : 2.93 sec
+[15:40:44]  READY HOT    : 4.59 sec
+[15:40:56]  DISPENSE HOT    : 11.81 sec
+[15:40:59]  START COFFEE    : 2.87 sec
+[15:41:02]  READY COFFEE    : 3.40 sec
+[15:41:35]  DISPENSE COFFEE    : 32.21 sec
+[15:41:39]  READY OUTLET    : 4.39 sec
+[15:41:41]  READY OUTLET    : 1.80 sec
+[15:41:46]  DISPENSE OUTLET    : 5.20 sec
+[15:41:47]     STOP MEASURE :: H아메리카노(헤이즐넛)
+[15:41:47]     TAKT TIME :: 88.07 sec
+[15:41:47]===============================================================
+
+
+
+[15:46:35]===============================================================
+[15:46:35]     START MEASURE :: I아메리카노
+[15:46:35]---------------------------------------------------------------
+[15:46:35]  START CUP    : 0.22 sec
+[15:46:39]  READY CUP    : 3.87 sec
+[15:46:42]  DISPENSE CUP    : 2.92 sec
+[15:46:44]  START ICE    : 2.29 sec
+[15:46:48]  READY ICE    : 4.00 sec
+[15:46:54]  DISPENSE ICE    : 6.12 sec
+[15:46:55]  START COFFEE    : 1.41 sec
+[15:47:00]  READY COFFEE    : 4.59 sec
+[15:47:32]  DISPENSE COFFEE    : 31.81 sec
+[15:47:36]  READY OUTLET    : 4.19 sec
+[15:47:37]  READY OUTLET    : 0.88 sec
+[15:47:41]  DISPENSE OUTLET    : 4.00 sec
+[15:47:42]     STOP MEASURE :: I아메리카노
+[15:47:42]     TAKT TIME :: 67.49 sec
+[15:47:42]===============================================================
+
+
+
+[15:53:02]===============================================================
+[15:53:02]     START MEASURE :: H아메리카노
+[15:53:02]---------------------------------------------------------------
+[15:53:02]  START CUP    : 0.19 sec
+[15:53:06]  READY CUP    : 3.79 sec
+[15:53:09]  DISPENSE CUP    : 3.09 sec
+[15:53:11]  START HOT    : 2.12 sec
+[15:53:15]  READY HOT    : 4.40 sec
+[15:53:28]  DISPENSE HOT    : 13.00 sec
+[15:53:31]  START COFFEE    : 2.81 sec
+[15:53:35]  READY COFFEE    : 3.38 sec
+[15:54:06]  DISPENSE COFFEE    : 31.28 sec
+[15:54:10]  READY OUTLET    : 4.40 sec
+[15:54:12]  READY OUTLET    : 1.73 sec
+[15:54:17]  DISPENSE OUTLET    : 5.19 sec
+[15:54:18]     STOP MEASURE :: H아메리카노
+[15:54:18]     TAKT TIME :: 76.07 sec
+[15:54:18]===============================================================
+
+
+
+[15:54:18]===============================================================
+[15:54:18]     START MEASURE :: H아메리카노(헤이즐넛)
+[15:54:18]---------------------------------------------------------------
+[15:54:18]  START CUP    : 0.19 sec
+[15:54:22]  READY CUP    : 3.88 sec
+[15:54:25]  DISPENSE CUP    : 2.72 sec
+[15:54:27]  START SYRUP    : 2.19 sec
+[15:54:33]  READY SYRUP    : 6.22 sec
+[15:54:42]  DISPENSE SYRUP    : 8.48 sec
+[15:54:45]  START HOT    : 2.91 sec
+[15:54:49]  READY HOT    : 4.49 sec
+[15:55:01]  DISPENSE HOT    : 11.40 sec
+[15:55:03]  START COFFEE    : 2.80 sec
+[15:55:07]  READY COFFEE    : 3.41 sec
+[15:55:39]  DISPENSE COFFEE    : 32.52 sec
+[15:55:44]  READY OUTLET    : 4.19 sec
+[15:55:44]  READY OUTLET    : 0.88 sec
+[15:55:48]  DISPENSE OUTLET    : 4.00 sec
+[15:55:50]     STOP MEASURE :: H아메리카노(헤이즐넛)
+[15:55:50]     TAKT TIME :: 91.48 sec
+[15:55:50]===============================================================
+
+
+
+[16:24:51]===============================================================
+[16:24:51]     START MEASURE :: H아메리카노
+[16:24:51]---------------------------------------------------------------
+[16:24:51]  START CUP    : 0.20 sec
+[16:24:55]  READY CUP    : 3.80 sec
+[16:24:58]  DISPENSE CUP    : 2.93 sec
+[16:25:00]  START HOT    : 2.07 sec
+[16:25:05]  READY HOT    : 4.33 sec
+[16:25:17]  DISPENSE HOT    : 12.39 sec
+[16:25:20]  START COFFEE    : 2.81 sec
+[16:25:23]  READY COFFEE    : 3.38 sec
+[16:25:55]  DISPENSE COFFEE    : 31.70 sec
+[16:25:59]  READY OUTLET    : 4.39 sec
+[16:26:01]  READY OUTLET    : 1.73 sec
+[16:26:06]  DISPENSE OUTLET    : 5.18 sec
+[16:26:07]     STOP MEASURE :: H아메리카노
+[16:26:07]     TAKT TIME :: 75.60 sec
+[16:26:07]===============================================================
+
+
+
+[19:12:16]===============================================================
+[19:12:16]     START MEASURE :: I아메리카노
+[19:12:16]---------------------------------------------------------------
+[19:12:16]  START CUP    : 0.19 sec
+[19:12:20]  READY CUP    : 3.92 sec
+[19:12:23]  DISPENSE CUP    : 2.88 sec
+[19:12:25]  START ICE    : 2.33 sec
+[19:12:28]  READY ICE    : 3.08 sec
+[19:12:34]  DISPENSE ICE    : 6.13 sec
+[19:12:37]  START COFFEE    : 2.20 sec
+[19:12:41]  READY COFFEE    : 4.20 sec
+[19:13:12]  DISPENSE COFFEE    : 30.87 sec
+[19:13:16]  READY OUTLET    : 4.13 sec
+[19:13:17]  READY OUTLET    : 1.07 sec
+[19:13:21]  DISPENSE OUTLET    : 4.00 sec
+[19:13:22]     STOP MEASURE :: I아메리카노
+[19:13:22]     TAKT TIME :: 66.13 sec
+[19:13:22]===============================================================
+
+
+
+[19:36:11]===============================================================
+[19:36:11]     START MEASURE :: I아메리카노
+[19:36:11]---------------------------------------------------------------
+[19:36:11]  START CUP    : 0.20 sec
+[19:36:15]  READY CUP    : 3.87 sec
+[19:36:18]  DISPENSE CUP    : 2.93 sec
+[19:36:20]  START ICE    : 2.27 sec
+[19:36:24]  READY ICE    : 4.00 sec
+[19:36:30]  DISPENSE ICE    : 6.12 sec
+[19:36:31]  START COFFEE    : 1.41 sec
+[19:36:36]  READY COFFEE    : 4.59 sec
+[19:37:08]  DISPENSE COFFEE    : 31.60 sec
+[19:37:12]  READY OUTLET    : 4.40 sec
+[19:37:14]  READY OUTLET    : 1.68 sec
+[19:37:19]  DISPENSE OUTLET    : 5.13 sec
+[19:37:19]     STOP MEASURE :: I아메리카노
+[19:37:19]     TAKT TIME :: 68.87 sec
+[19:37:19]===============================================================
+
+
+
+[19:37:20]===============================================================
+[19:37:20]     START MEASURE :: I아메리카노
+[19:37:20]---------------------------------------------------------------
+[19:37:20]  START CUP    : 0.20 sec
+[19:37:24]  READY CUP    : 3.87 sec
+[19:37:27]  DISPENSE CUP    : 2.80 sec
+[19:37:29]  START ICE    : 2.32 sec
+[19:37:32]  READY ICE    : 3.08 sec
+[19:37:38]  DISPENSE ICE    : 6.13 sec
+[19:37:40]  START COFFEE    : 2.20 sec
+[19:37:45]  READY COFFEE    : 4.20 sec
+[19:38:16]  DISPENSE COFFEE    : 31.47 sec
+[19:38:20]  READY OUTLET    : 4.20 sec
+[19:38:21]  READY OUTLET    : 1.00 sec
+[19:38:25]  DISPENSE OUTLET    : 4.00 sec
+[19:38:26]     STOP MEASURE :: I아메리카노
+[19:38:26]     TAKT TIME :: 66.67 sec
+[19:38:26]===============================================================
+
+
+
+[20:26:41]===============================================================
+[20:26:41]     START MEASURE :: I아메리카노
+[20:26:41]---------------------------------------------------------------
+[20:26:41]  START CUP    : 0.20 sec
+[20:26:45]  READY CUP    : 3.92 sec
+[20:26:48]  DISPENSE CUP    : 2.69 sec
+[20:26:50]  START ICE    : 2.32 sec
+[20:26:54]  READY ICE    : 4.01 sec
+[20:27:00]  DISPENSE ICE    : 6.08 sec
+[20:27:01]  START COFFEE    : 1.40 sec
+[20:27:06]  READY COFFEE    : 4.60 sec
+[20:27:38]  DISPENSE COFFEE    : 31.60 sec
+[20:27:42]  READY OUTLET    : 4.40 sec
+[20:27:44]  READY OUTLET    : 1.80 sec
+[20:27:49]  DISPENSE OUTLET    : 5.12 sec
+[20:27:50]     STOP MEASURE :: I아메리카노
+[20:27:50]     TAKT TIME :: 68.80 sec
+[20:27:50]===============================================================
+
+
+
+[20:28:05]===============================================================
+[20:28:05]     START MEASURE :: H레몬티
+[20:28:05]---------------------------------------------------------------
+[20:28:05]  START CUP    : 0.21 sec
+[20:28:09]  READY CUP    : 3.87 sec
+[20:28:12]  DISPENSE CUP    : 2.80 sec
+[20:28:14]  START BASE    : 2.20 sec
+[20:28:21]  READY BASE    : 7.33 sec
+[20:28:23]  READY BASE    : 1.40 sec
+[20:28:24]  READY BASE    : 1.40 sec
+[20:28:26]  DISPENSE BASE    : 1.40 sec
+[20:28:31]  START SYRUP    : 5.60 sec
+[20:28:35]  READY SYRUP    : 4.19 sec
+[20:28:37]  DISPENSE SYRUP    : 1.41 sec
+[20:28:40]  START HOT    : 2.87 sec
+[20:28:44]  READY HOT    : 4.53 sec
+[20:28:57]  DISPENSE HOT    : 12.78 sec
+[20:29:02]  READY OUTLET    : 4.82 sec
+[20:29:03]  READY OUTLET    : 0.87 sec
+[20:29:07]  DISPENSE OUTLET    : 4.01 sec
+[20:29:08]     STOP MEASURE :: H레몬티
+[20:29:08]     TAKT TIME :: 62.88 sec
+[20:29:08]===============================================================
+
+
+
+[20:29:08]===============================================================
+[20:29:08]     START MEASURE :: H카페라떼(바닐라)
+[20:29:08]---------------------------------------------------------------
+[20:29:08]  START CUP    : 0.20 sec
+[20:29:12]  READY CUP    : 3.79 sec
+[20:29:15]  DISPENSE CUP    : 3.00 sec
+[20:29:17]  START SYRUP    : 2.08 sec
+[20:29:23]  READY SYRUP    : 6.19 sec
+[20:29:26]  DISPENSE SYRUP    : 2.73 sec
+[20:29:29]  START COFFEE    : 3.00 sec
+[20:29:33]  READY COFFEE    : 4.00 sec
+[20:30:07]  DISPENSE COFFEE    : 33.87 sec
+[20:30:11]  READY OUTLET    : 4.40 sec
+[20:30:12]  READY OUTLET    : 0.80 sec
+[20:30:17]  DISPENSE OUTLET    : 5.13 sec
+[20:30:18]     STOP MEASURE :: H카페라떼(바닐라)
+[20:30:18]     TAKT TIME :: 69.87 sec
+[20:30:18]===============================================================
+
+
+
+[21:44:46]===============================================================
+[21:44:46]     START MEASURE :: H아메리카노
+[21:44:46]---------------------------------------------------------------
+[21:44:47]  START CUP    : 0.20 sec
+[21:44:50]  READY CUP    : 3.87 sec
+[21:44:53]  DISPENSE CUP    : 2.73 sec
+[21:44:55]  START HOT    : 2.20 sec
+[21:45:00]  READY HOT    : 4.40 sec
+[21:45:12]  DISPENSE HOT    : 12.66 sec
+[21:45:15]  START COFFEE    : 2.80 sec
+[21:45:19]  READY COFFEE    : 3.40 sec
+[21:45:50]  DISPENSE COFFEE    : 30.93 sec
+[21:45:54]  READY OUTLET    : 4.20 sec
+[21:45:55]  READY OUTLET    : 0.86 sec
+[21:45:59]  DISPENSE OUTLET    : 4.00 sec
+[21:46:00]     STOP MEASURE :: H아메리카노
+[21:46:00]     TAKT TIME :: 73.47 sec
+[21:46:00]===============================================================
+
+
+
+[21:46:00]===============================================================
+[21:46:00]     START MEASURE :: H카페카라멜모카
+[21:46:00]---------------------------------------------------------------
+[21:46:00]  START CUP    : 0.20 sec
+[21:46:04]  READY CUP    : 3.80 sec
+[21:46:07]  DISPENSE CUP    : 3.00 sec
+[21:46:09]  START SYRUP    : 2.07 sec
+[21:46:15]  READY SYRUP    : 6.20 sec
+[21:46:17]  DISPENSE SYRUP    : 1.94 sec
+[21:46:20]  START BASE    : 2.87 sec
+[21:46:26]  READY BASE    : 5.60 sec
+[21:46:27]  READY BASE    : 1.33 sec
+[21:46:29]  DISPENSE BASE    : 1.41 sec
+[21:46:34]  START COFFEE    : 5.46 sec
+[21:46:38]  READY COFFEE    : 4.00 sec
+[21:47:12]  DISPENSE COFFEE    : 34.00 sec
+[21:47:16]  READY OUTLET    : 4.40 sec
+[21:47:18]  READY OUTLET    : 1.80 sec
+[21:47:23]  DISPENSE OUTLET    : 5.13 sec
+[21:47:24]     STOP MEASURE :: H카페카라멜모카
+[21:47:24]     TAKT TIME :: 83.87 sec
+[21:47:24]===============================================================
+
+
+
+[21:47:52]===============================================================
+[21:47:52]     START MEASURE :: H아메리카노
+[21:47:52]---------------------------------------------------------------
+[21:47:53]  START CUP    : 0.20 sec
+[21:47:57]  READY CUP    : 3.93 sec
+[21:47:59]  DISPENSE CUP    : 2.80 sec
+[21:48:02]  START HOT    : 2.26 sec
+[21:48:06]  READY HOT    : 4.33 sec
+[21:48:19]  DISPENSE HOT    : 13.08 sec
+[21:48:22]  START COFFEE    : 2.80 sec
+[21:48:25]  READY COFFEE    : 3.40 sec
+[21:48:57]  DISPENSE COFFEE    : 31.93 sec
+[21:49:01]  READY OUTLET    : 4.20 sec
+[21:49:02]  READY OUTLET    : 0.87 sec
+[21:49:06]  DISPENSE OUTLET    : 4.00 sec
+[21:49:07]     STOP MEASURE :: H아메리카노
+[21:49:07]     TAKT TIME :: 75.00 sec
+[21:49:07]===============================================================
+
+
+
+[22:14:43]===============================================================
+[22:14:43]     START MEASURE :: H카페라떼(바닐라)
+[22:14:43]---------------------------------------------------------------
+[22:14:43]  START CUP    : 0.20 sec
+[22:14:47]  READY CUP    : 3.80 sec
+[22:14:50]  DISPENSE CUP    : 2.93 sec
+[22:14:52]  START SYRUP    : 2.06 sec
+[22:14:58]  READY SYRUP    : 6.20 sec
+[22:15:01]  DISPENSE SYRUP    : 2.93 sec
+[22:15:04]  START COFFEE    : 2.87 sec
+[22:15:08]  READY COFFEE    : 4.00 sec
+[22:15:42]  DISPENSE COFFEE    : 33.73 sec
+[22:15:46]  READY OUTLET    : 4.41 sec
+[22:15:48]  READY OUTLET    : 1.67 sec
+[22:15:53]  DISPENSE OUTLET    : 5.13 sec
+[22:15:54]     STOP MEASURE :: H카페라떼(바닐라)
+[22:15:54]     TAKT TIME :: 70.60 sec
+[22:15:54]===============================================================
+
+
+
+[22:44:37]===============================================================
+[22:44:37]     START MEASURE :: I레몬에이드
+[22:44:37]---------------------------------------------------------------
+[22:44:37]  START CUP    : 0.20 sec
+[22:44:41]  READY CUP    : 3.93 sec
+[22:44:44]  DISPENSE CUP    : 2.80 sec
+[22:44:46]  START ICE    : 2.27 sec
+[22:44:49]  READY ICE    : 3.00 sec
+[22:44:54]  DISPENSE ICE    : 4.60 sec
+[22:44:56]  START BASE    : 2.13 sec
+[22:45:04]  READY BASE    : 7.60 sec
+[22:45:05]  READY BASE    : 1.40 sec
+[22:45:07]  READY BASE    : 1.40 sec
+[22:45:08]  DISPENSE BASE    : 1.40 sec
+[22:45:14]  START SYRUP    : 5.60 sec
+[22:45:18]  READY SYRUP    : 4.20 sec
+[22:45:19]  DISPENSE SYRUP    : 1.47 sec
+[22:45:22]  START SODA    : 2.93 sec
+[22:45:28]  READY SODA    : 6.27 sec
+[22:45:43]  DISPENSE SODA    : 14.40 sec
+[22:45:47]  READY OUTLET    : 4.60 sec
+[22:45:48]  READY OUTLET    : 0.60 sec
+[22:45:52]  DISPENSE OUTLET    : 4.00 sec
+[22:45:53]     STOP MEASURE :: I레몬에이드
+[22:45:53]     TAKT TIME :: 76.00 sec
+[22:45:53]===============================================================
+
+
+
+[22:48:39]===============================================================
+[22:48:39]     START MEASURE :: H아메리카노
+[22:48:39]---------------------------------------------------------------
+[22:48:39]  START CUP    : 0.20 sec
+[22:48:43]  READY CUP    : 4.00 sec
+[22:48:46]  DISPENSE CUP    : 2.87 sec
+[22:48:48]  START HOT    : 2.20 sec
+[22:48:53]  READY HOT    : 4.40 sec
+[22:49:05]  DISPENSE HOT    : 12.13 sec
+[22:49:08]  START COFFEE    : 2.87 sec
+[22:49:11]  READY COFFEE    : 3.40 sec
+[22:49:43]  DISPENSE COFFEE    : 31.33 sec
+[22:49:47]  READY OUTLET    : 4.40 sec
+[22:49:48]  READY OUTLET    : 0.67 sec
+[22:49:53]  DISPENSE OUTLET    : 5.13 sec
+[22:49:53]     STOP MEASURE :: H아메리카노
+[22:49:53]     TAKT TIME :: 74.27 sec
+[22:49:53]===============================================================
+
+
+
+[22:53:58]===============================================================
+[22:53:58]     START MEASURE :: H아메리카노
+[22:53:58]---------------------------------------------------------------
+[22:53:58]  START CUP    : 0.19 sec
+[22:54:02]  READY CUP    : 3.81 sec
+[22:54:05]  DISPENSE CUP    : 2.91 sec
+[22:54:07]  START HOT    : 2.08 sec
+[22:54:11]  READY HOT    : 4.33 sec
+[22:54:24]  DISPENSE HOT    : 12.20 sec
+[22:54:26]  START COFFEE    : 2.80 sec
+[22:54:30]  READY COFFEE    : 3.40 sec
+[22:55:01]  DISPENSE COFFEE    : 31.18 sec
+[22:55:05]  READY OUTLET    : 4.21 sec
+[22:55:06]  READY OUTLET    : 0.87 sec
+[22:55:10]  DISPENSE OUTLET    : 4.00 sec
+[22:55:11]     STOP MEASURE :: H아메리카노
+[22:55:11]     TAKT TIME :: 73.19 sec
+[22:55:11]===============================================================
+
+
+
+[23:31:16]===============================================================
+[23:31:16]     START MEASURE :: H아메리카노
+[23:31:16]---------------------------------------------------------------
+[23:31:16]  START CUP    : 0.20 sec
+[23:31:20]  READY CUP    : 4.00 sec
+[23:31:23]  DISPENSE CUP    : 2.79 sec
+[23:31:25]  START HOT    : 2.20 sec
+[23:31:30]  READY HOT    : 4.40 sec
+[23:31:41]  DISPENSE HOT    : 11.80 sec
+[23:31:44]  START COFFEE    : 2.87 sec
+[23:31:48]  READY COFFEE    : 3.40 sec
+[23:32:19]  DISPENSE COFFEE    : 30.93 sec
+[23:32:23]  READY OUTLET    : 4.40 sec
+[23:32:25]  READY OUTLET    : 1.67 sec
+[23:32:30]  DISPENSE OUTLET    : 5.20 sec
+[23:32:30]     STOP MEASURE :: H아메리카노
+[23:32:30]     TAKT TIME :: 74.47 sec
+[23:32:30]===============================================================
+
+
+

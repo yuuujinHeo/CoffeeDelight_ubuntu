@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>build/image/display_page1.png</file>
+        <file>build/image/display_page2.png</file>
+        <file>build/image/display_page3.png</file>
+        <file>build/image/lock.png</file>
+        <file>build/image/making.png</file>
+        <file>build/image/outlet.png</file>
+        <file>build/image/power.png</file>
+        <file>build/image/setting.png</file>
+        <file>build/image/unlock.png</file>
+        <file>build/image/waiting.png</file>
+        <file>build/image/background.png</file>
+        <file>build/image/background_prepare.png</file>
+        <file>build/image/qqyu.png</file>
+        <file>build/image/powerw.png</file>
+        <file>build/image/settingw.png</file>
+        <file>build/image/unlockw.png</file>
+        <file>build/image/lockw.png</file>
+        <file>build/image/qqyu_w.png</file>
+    </qresource>
+</RCC>
